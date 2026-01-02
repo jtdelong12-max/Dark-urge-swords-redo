@@ -115,8 +115,10 @@ If issues are found:
 4. Apply targeted fix
 
 ## Known Limitations
-- Base templates are new entries; they will appear in mod manager but should not be spawnable in-game
-- If base template is somehow spawned, it would have generic longsword appearance
+- Base templates are new entries that serve as inheritance templates
+- Base templates have RootTemplate UUIDs from game weapons (WPN_Longsword_1, WPN_Greatsword_2)
+- They should NOT spawn as separate items since they don't have unique UUIDs
+- If somehow spawned via console, they would function as standard longsword/greatsword with added properties
 
 ## Success Criteria
 - [ ] All weapons spawn correctly

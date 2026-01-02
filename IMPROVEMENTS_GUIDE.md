@@ -140,12 +140,13 @@ Weapon.txt
 │   ├── BloodyAllegiance_Giant_Onehand_Mage
 │   ├── BloodyAllegiance_Silver_OneHand
 │   ├── BloodyAllegiance_Silver_OneHand_NoSheat
-│   ├── BloodyAllegiance_Silver_OneHand_Magic
-│   └── BloodyAllegiance_Rapier
+│   └── BloodyAllegiance_Silver_OneHand_Magic
 │
-└── BloodyAllegiance_TwoHand_Base (lines 57-74)
-    ├── BloodyAllegiance_Giant_Twohand
-    └── BloodyAllegiance_Crusher_TwoHand
+├── BloodyAllegiance_TwoHand_Base (lines 57-74)
+│   ├── BloodyAllegiance_Giant_Twohand
+│   └── BloodyAllegiance_Crusher_TwoHand
+│
+└── BloodyAllegiance_Rapier (uses WPN_Rapier directly, not base template)
 ```
 
 ## Additional Optimizations Made
@@ -163,8 +164,9 @@ Weapon.txt
 
 ## Performance Metrics
 
-- **File size:** 736 → 617 lines (16.2% reduction)
-- **Maintenance effort:** 10 weapon definitions → 2 base templates + overrides
+- **File size:** 736 → 628 lines (14.7% reduction, 108 lines saved)
+- **Maintenance effort:** 10 longsword/greatsword definitions → 2 base templates + overrides
+- **Rapier:** Kept separate due to different base weapon mechanics
 - **Load time:** Improved (less data to parse)
 - **Memory usage:** Reduced (more efficient data structure)
 

@@ -21,11 +21,11 @@ The mod's data files contained significant code duplication and inefficiencies t
 - Eliminated potential conflicts from duplicate entries
 - Improved mod loading efficiency
 
-### 2. Consolidated Weapon Definitions Using Inheritance (~450 lines saved)
+### 2. Consolidated Weapon Definitions Using Inheritance (~108 lines saved)
 
 **File:** `Weapon.txt`
 
-**Issue:** Ten weapon variants shared 90-95% identical properties, with each weapon entry repeating:
+**Issue:** Ten longsword and greatsword variants shared 90-95% identical properties, with each weapon entry repeating:
 - DefaultBoosts (long enchantment formula)
 - BoostsOnEquipMainHand (6 unlocked spells)
 - PassivesOnEquip (3 descriptors)
@@ -33,6 +33,8 @@ The mod's data files contained significant code duplication and inefficiencies t
 - StatusOnEquip (2 statuses)
 - WeaponFunctors (critical hit healing)
 - Common damage type, value, rarity settings
+
+The Rapier was initially included but uses different base mechanics (Finesse-only, different damage dice), so it was kept separate to maintain proper inheritance.
 
 **Fix:** Created two base templates using the BG3 "using" directive:
 - `BloodyAllegiance_Base` - Template for one-handed longsword variants
@@ -42,6 +44,8 @@ Each weapon variant now only specifies:
 - Unique RootTemplate UUID
 - Variations in properties (e.g., NotSheathable, Light)
 - Special overrides (e.g., Legendary rarity for mage variants)
+
+By extracting common properties into base templates, we eliminated approximately 140 lines of actively repeated code (10 weapons × 14 lines each), though the net file reduction is 119 lines after accounting for the base template definitions themselves.
 
 **Before (per weapon):**
 ```
@@ -76,10 +80,10 @@ data "ValueUUID" "..."
 ```
 
 **Impact:**
-- Reduced from ~18 lines per weapon to ~4 lines per weapon
-- 10 weapons × 14 lines saved = ~140 lines of active definitions
-- Plus base templates replace ~160 lines of duplicated code
-- Total reduction: ~450 lines (62% smaller weapon definitions)
+- Reduced from ~18 lines per weapon to ~4 lines per weapon (for 10 weapons using base templates)
+- 10 weapons × 14 lines saved = ~130 lines of weapon definitions eliminated
+- Net reduction: 108 lines total (14.7% smaller weapon file)
+- Rapier kept separate (not using base template) due to different weapon mechanics
 - Easier maintenance: Changes to common properties now only need to be made once
 - Reduced human error: Less copy-paste means fewer mistakes
 
@@ -101,9 +105,9 @@ data "ValueUUID" "..."
 ## Performance Impact
 
 ### File Size Reduction
-- **Weapon.txt:** Reduced from 736 lines to 617 lines (16.2% reduction, 119 lines saved)
+- **Weapon.txt:** Reduced from 736 lines to 628 lines (14.7% reduction, 108 lines saved)
 - **Duplicate elimination:** 27 lines of duplicate spell definition removed
-- **Code consolidation:** ~450 lines of repeated properties now defined in 2 base templates
+- **Code consolidation:** Eliminated ~130 lines of repeated weapon properties by creating 2 base templates for 10 similar weapons
 
 ### Loading Performance
 - Smaller files = faster disk I/O
@@ -151,9 +155,10 @@ data "ValueUUID" "..."
 These optimizations significantly reduced code duplication while maintaining full functionality. The mod is now more efficient, easier to maintain, and follows better data design practices.
 
 **Total Impact:**
-- ✅ 119 lines of code eliminated from Weapon.txt (16.2% reduction: 736→617 lines)
+- ✅ 108 lines of code eliminated from Weapon.txt (14.7% reduction: 736→628 lines)
 - ✅ 27 duplicate spell lines removed
-- ✅ ~450 lines of duplicated properties consolidated into 2 base templates
+- ✅ ~130 lines of duplicated properties consolidated into 2 base templates
+- ✅ 10 weapons now use inheritance (Rapier kept separate due to different base mechanics)
 - ✅ Improved maintainability through inheritance
 - ✅ Faster loading times
 - ✅ Reduced memory usage
