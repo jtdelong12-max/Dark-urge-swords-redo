@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList date="17/07/2023 12:47">
+<content contentuid="h1dbc4807g90beg4057gb1fcgfed59c3b8b6f" version="1">Bloody Allegiance</content>
+<content contentuid="h19aab986g9962g4e8bgb8d3gdce3d1a3a156" version="1">Bloody Allegiance - Nightmare</content>
+<content contentuid="hb5a50fe5g478eg41c7g8ce4g15b1451480ec" version="1">Bloody Allegiance - Rage Test</content>
+<content contentuid="ha9abba2cgcb53g406bgaa7dg0ab12a61949e" version="1">Bloody Allegiance - Pack</content>
+<content contentuid="he65546f3g2ed8g4fd2ga56eg7a8b6cde2a56" version="1">Terror Onslaught</content>
+<content contentuid="hccdff07dg478dg49efgb340gd7ef994d54ba" version="1">Terror Onslaught - Nightmare</content>
+<content contentuid="h4d8ebaafga24fg45cdgb1e1g21b47fb2ad25" version="4">Charge forward, pushing all objects and creatures in your path [1] away from you and deal them [2].This ability can produce force beams with [3] if become critical.</content>
+<content contentuid="h9366889eg3da7g431fgbb68g40f717615290" version="4">Charge forward, pushing all objects and creatures in your path [1] away from you and deal them [2].This ability can produce force beams with [3] if become critical.</content>
+<content contentuid="h26f85bc6gff09g4c8eg8960gd87c05366d4b" version="1">Awakening of Terror</content>
+<content contentuid="h3581cfc5g5147g4fcbgb835g6d270f17fcb8" version="1">Awakening of Terror - Nightmare</content>
+
+
+<content contentuid="h47dcc53bg0a27g4a21gb3dbg2bb692ca5245" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Once per Battle&lt;/LSTag&gt;&lt;/b&gt; for [1] turns you unleash True Terror. 
+&lt;b&gt;&lt;LSTag&gt;Your attacks become ALWAYS CRITICAL.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 Action Point, +5 DEX, +50% faster Movement, Advantage on DEX rolls.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+<content contentuid="h91192f25gc7b5g4fbeg896dgd29c259a23da" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Once per Battle&lt;/LSTag&gt;&lt;/b&gt; for [1] turns you unleash True Terror. Duration grows with your LeveL.
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Your attacks become &lt;b&gt;&lt;LSTag&gt;ALWAYS CRITICAL.&lt;/LSTag&gt;&lt;/b&gt;&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 Action Point, +10 DEX, +50% faster Movement, Advantage on DEX rolls.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+
+<content contentuid="h30e52a39gcfd9g49a8g86f9g42104b0ac2a6" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Once per Battle&lt;/LSTag&gt;&lt;/b&gt; for [1] turns you unleash True Terror. 
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Your attacks become ALWAYS CRITICAL.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 Action Point, +5 DEX, +50% faster Movement, Advantage on DEX rolls.&lt;/LSTag&gt;&lt;/b&gt;
+When Cast unleash &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Powerful Shockwave&lt;/LSTag&gt;&lt;/b&gt; that deals [2] in 5m radius and knocks enemies back for 3m.</content>
+
+<content contentuid="h409fc94ag09edg41c2g8f87gd20c644eec82" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Once per Battle&lt;/LSTag&gt;&lt;/b&gt; for [1] turns you unleash True Terror. Duration grows with your LeveL.
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Your attacks become ALWAYS CRITICAL.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 Action Point, +10 DEX, +50% faster Movement, Advantage on DEX rolls.&lt;/LSTag&gt;&lt;/b&gt;
+When Cast unleash &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Powerful Shockwave&lt;/LSTag&gt;&lt;/b&gt; that deals [2] in 5m radius and knocks enemies back for 3m.</content>
+
+
+
+<content contentuid="h99fcbeebg7d7bg42a4g8b52g292e95d697d2" version="1">BloodSeeker</content>
+<content contentuid="hb56e8192g4527g42bfg8ca8g281d0aa592f9" version="1">BloodSeeker - Nightmare</content>
+<content contentuid="h2ec9bbe4gd68cg4295g9f06ged7ee98cf85d" version="1">
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+20% Spells Accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+20% Critical Chance.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;25% of Weapon Damage dealt - Reagin Hitpoints.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;10% of Spells Damage dealt - Reagin Hitpoints.&lt;/LSTag&gt;&lt;/b&gt;
+
+When you deal &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Critical hit&lt;/LSTag&gt;&lt;/b&gt;, you produce &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Force beam to 3 targets in 6m that deals&lt;/LSTag&gt;&lt;/b&gt; [1].
+
+Attacks with this weapon can &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Scare&lt;/LSTag&gt; the target.
+
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Swords damage and Enchanting grows with your progression.&lt;/LSTag&gt;&lt;/b&gt;
+
+Weapon Provide powerfull &lt;LSTag Type="Status" Tooltip="BloodyAllegianceAura_BLESS"&gt;Aura&lt;/LSTag&gt; to Ally within &lt;b&gt;&lt;LSTag Tooltip="test"&gt;6m&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+<content contentuid="he050e1dfgf1f7g469fga619gba19cd894a3f" version="1">BloodSeeker - Nightmare</content>
+<content contentuid="hce595472g229fg49f6g9ff5gec5a97dd1dea" version="1">
+&lt;b&gt;&lt;LSTag&gt;LvL 1:&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Dexterity Modifier&lt;/LSTag&gt;&lt;/b&gt; as Bonus Damage to everything.
+&lt;b&gt;&lt;LSTag&gt;LvL 5:&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+5% Critical Chance.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 INT, WIS, DEX.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+2 III Spell Slots.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag&gt;LvL 10:&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 INT, WIS, DEX.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+2 VI Spell Slots.&lt;/LSTag&gt;&lt;/b&gt;</content>
+<content contentuid="h61483769gd8a0g4e44gaeeeg12b9bbb303d7" version="1">ONE</content>
+
+When Mjolnir deals hit it produces &lt;b&gt;&lt;LSTag Tooltip="test"&gt;ChainLightning&lt;/LSTag&gt;&lt;/b&gt; to anyone in 10m that deals [2].
+
+<content contentuid="hb25db41ag5eabg4db7gb02cgd6ecfb5252c9" version="1">Critical Force Beam</content>
+<content contentuid="ha0780f4cg85aag4af1g80d0g240e0754a34a" version="1">If you land a critical hit, you unleash beam with [1] to anyone in 7m.</content>
+
+
+
+
+<content contentuid="h9e1b53c6g759eg4461g8f67g4ed2248c2ed7" version="2">Bloody Allegiance Adamantine Rapier</content>
+<content contentuid="h014a9946gea7bg49eeg98f1ge2a53d748a6b" version="3">Each cut of this blade shines with the wicked glint of adamantine - a promise for a devastating blow.</content>
+
+
+<content contentuid="he7fda81cgae81g4ac4ga6b2g7b4b5827dd7e" version="1">Bloody Allegiance Adamantine Longsword</content>
+<content contentuid="h3a308928gb283g4b07g98c6gdb3b7dce6766" version="1">Though heavy, this longsword swings effortlessly in your hand - ready to take down a hundred enemies.</content>
+
+
+<content contentuid="h941501d7g3ca2g49dag9430g90317d7092c7" version="1">Bloody Allegiance Adamantine Greatsword</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+
+
+<content contentuid="h748d449ag8e8cg4afeg9c5ag46eee2eb3401" version="1">Bloody Allegiance: Perfection</content>
+<content contentuid="h27b1afb7gecd6g4f92g9315g1a1f31ebb4aa" version="2">Affected entity has [1] penalty to mental &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. When it is attacked, it takes an additional [2].</content>
+<content contentuid="h6b99cae3g2330g4975g8c0eg94757f890b4f" version="2">Enemies within [1] of range have [2] penalty to mental &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;. The sword deals additional [3] damage to creatures affected by the shrieked.
+
+All allies within [1] of range have [2] bonus to mental &lt;LSTag Tooltip="Dexterity"&gt;Dexterity +2&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage to Attacks&lt;/LSTag&gt;</content>
+<content contentuid="h59a1a404g1254g4481g8820g2cee9c2efc2e" version="1">Bloody Allegiance: Perfection</content>
+<content contentuid="hc0c8c8a8g32bdg4aacg90d4g223cc5a027c0" version="2">All allies within [1] of range have [2] bonus to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity +2&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage to Attacks&lt;/LSTag&gt;</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////Start Desc
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+<content contentuid="h4587c4bbgdc46g43bdg929bg93c115cb73dd" version="2">BloodSeeker</content>
+<content contentuid="h641bf32ag57b5g4be7g83adg7543979e9faf" version="2">
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+10% Critical Chanse.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+15% Accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+15% Vapmirism&lt;/LSTag&gt;&lt;/b&gt; on &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.
+&lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; releases &lt;LSTag Type="Spell" Tooltip="CritImpact_Blood"&gt;Critical Blow&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; targets in 4m radius.</content>
+
+
+<content contentuid="hacb7b6a4gd412g46beg8db5g27af36ef7eca" version="1">Critical Demonic Blow</content>
+<content contentuid="h4d368cceg1954g4731g97a4g1d56e73f8cad" version="1">Succesfull melee &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;. Deals [1] and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; targets in 4m radius for 1 turn.</content>
+
+
+
+<content contentuid="h030c0d90gaf9cg479eg9b4cg989f5c146669" version="1">Bloody Allegiance Accuracy</content>
+<content contentuid="h29826936g94e4g445fgb5b0gd29cfbbc0002" version="1">15% to all weapons accuracy.</content>
+
+<content contentuid="h598c1b70g3787g42bdgb1f0gb7936e63a51b" version="1">Storm Screamer Form</content>
+<content contentuid="hdc61d958g3238g42e4g8665g9bb247052ed9" version="1">All Weapon Damage Reduced up to &lt;b&gt;&lt;LSTag&gt;80%.&lt;/LSTag&gt;&lt;/b&gt; 
+
+All Magic attacks Doubles your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt; Spellcasting Ability Modifier&lt;/LSTag&gt; as Bonus Damage.
+
+Your default Allegiance attacks become &lt;LSTag Type="Spell" Tooltip="Target_MainHandAttack_BloodTesting_Beam"&gt;Demonic Beams&lt;/LSTag&gt; with 16m range.</content>
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+<content contentuid="he6576633gb075g4791gba33g9f66c63a3aee" version="2">Transforming Demonic Sinister Halo</content>
+<content contentuid="h9a4ce348g5866g49f2gbe36g6899c3874192" version="2">
+Wielder can choose &lt;LSTag Type="Status" Tooltip="MAINHANDATTACK_Magic_Standart"&gt;Magic&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="MAINHANDATTACK_Melee_Standart"&gt;Melee&lt;/LSTag&gt; weapon Combat Mode.
+
+Allegiance Emits a &lt;LSTag Type="Status" Tooltip="BloodyAllegianceAura_Demonic"&gt;Dusky Light&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="BloodyAllegianceAura_BLESS"&gt;Strengthens&lt;/LSTag&gt; allies and &lt;LSTag Type="Status" Tooltip="BloodyAllegianceAura_WEAK"&gt;Weakens&lt;/LSTag&gt; enemies in &lt;b&gt;&lt;LSTag Tooltip="test"&gt;8m radius.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+<content contentuid="hc43b4031gb10fg440cg9d23g90454c0ecfd2" version="2">Soul Tormentor</content>
+<content contentuid="h1ddbf2e2gc9feg450fgb248gde41ec7ff60d" version="1">Only in combat, when you kill an enemy, you gain his soul. The more souls you get the more &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_7500"&gt;Powerful&lt;/LSTag&gt; you become. Forever.</content>
+
+
+
+
+
+<content contentuid="h23612148g0b1dg4d30g9830g02f8e603a2af" version="1">Demonic Ancient Slasher</content>
+<content contentuid="hfff0b8b7g85cag4a81gafcag7dff4bdd61d5" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Default Allegiance Form. &lt;/LSTag&gt;&lt;/b&gt;
+
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+10% Crit chanse.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+15% Accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+15% Vapmirism&lt;/LSTag&gt;&lt;/b&gt; on &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.
+&lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; releases &lt;LSTag Type="Spell" Tooltip="CritImpact_Blood"&gt;Critical Blow&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; targets in 4m radius.
+
+For Dual wield attacks &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;Bonus Action&lt;/LSTag&gt; are not required.</content>
+
+
+
+
+
+
+
+<content contentuid="he147504ege7b4g453ega7ffg4f0db65a5aa0" version="1">Demonic Storm Screamer</content>
+<content contentuid="hb062e367g3862g4bc0gbb65g67e3fbe4385b" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Magical Allegiance Form.&lt;/LSTag&gt;&lt;/b&gt;
+
+All Weapon Damage Reduced up to &lt;b&gt;&lt;LSTag&gt;80%.&lt;/LSTag&gt;&lt;/b&gt; 
+
+All Magic attacks Doubles your &lt;LSTag Tooltip="SpellcastingAbilityModifier"&gt;Spellcasting Ability Modifier&lt;/LSTag&gt; as Bonus Damage.
+
+Your default Allegiance attacks become &lt;LSTag Type="Spell" Tooltip="Target_MainHandAttack_BloodTesting_Beam"&gt;Demonic Beams&lt;/LSTag&gt; with 16m range.
+
+If  &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;, Three more Demonic Beams will leap from the target up to &lt;b&gt;&lt;LSTag Tooltip="test"&gt; 12m.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+
+
+<content contentuid="hed813534g8a04g4787ga08fg7b3ecf6b6a62" version="2">Storms Sreamer Main Attack</content>
+<content contentuid="he4d249aag546ag4c36ga026g0855337fcc3e" version="2">Produce demonic beam up to 18m, If &lt;LSTag Tooltip="CriticalHit"&gt;Critical&lt;/LSTag&gt; Three more Demonic Beams will leap from the target up to 12m.
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;6,8,10 and 12 LvL.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+<content contentuid="hdced55f4g5a07g407fg8b6dg8a73cb62c0d8" version="2">Storms Sreamer Off-Hand Attack</content>
+<content contentuid="h67f0753bgb8ffg4d64g933cg94010e333021" version="2">Produce demonic beam up to 18m, If &lt;LSTag Tooltip="CriticalHit"&gt;Critical&lt;/LSTag&gt; Three more Demonic Beams will leap from the target up to 12m.
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;6,8,10 and 12 LvL.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+<content contentuid="h15d81a54gdfecg4a3agb8ecg27c6f4bb19a8" version="2">Ancient Slasher Main Attack</content>
+<content contentuid="h34ad5335g3181g4921g8900g019d2cd6f326" version="2">Make a melee attack with your Bloody Allegiance. &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; releases &lt;LSTag Type="Spell" Tooltip="CritImpact_Blood"&gt;Critical Blow&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; targets in 4m radius. &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; will regain 15% of damage dealt. 
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;5 and 10 LvL.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+<content contentuid="he4009080g8f50g41fcgbde4g7d342b5d1cec" version="2">Ancient Slasher Off-Hand Attack</content>
+<content contentuid="h6bf21983g8517g4c7agb62cga14d5899a88d" version="2">Make a melee attack with your off-hand weapon. &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; releases &lt;LSTag Type="Spell" Tooltip="CritImpact_Blood"&gt;Critical Blow&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; targets in 4m radius. &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt; will regain 15% of damage dealt.
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;5 and 10 LvL.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+
+
+
+<content contentuid="h4f3a9bdag174ag4de7g83b9gc13916fd9468" version="2">Hide/Apply Ancient Slasher Effects</content>
+<content contentuid="hdc7c8ca5g69a3g4ce8gb248g8ff22107d10e" version="2">Hide/Apply Ancient Slasher Weapon Visuals.</content>
+
+<content contentuid="hb0fcd70ega6e7g4aafgbd85g2ac0b574c242" version="2">Hide/Apply Default Effects </content>
+<content contentuid="hbd40f718gc3dbg40d2g9459g660e705c9be8" version="2">Hide/Apply Default Visual Weapon Effects.</content>
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////// AURA ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+<content contentuid="hfd468993gddf3g4776g9653geb617d2af312" version="2">Demonic Sinister Oreol</content>
+<content contentuid="h57b2a345gb9edg4e22g9211g8722bf1d15ae" version="2">Emits a &lt;LSTag Type="Status" Tooltip="BloodyAllegianceAura_Demonic"&gt;Dusky Light&lt;/LSTag&gt; that &lt;LSTag Type="Status" Tooltip="BloodyAllegianceAura_BLESS"&gt;Strengthens&lt;/LSTag&gt; allies and &lt;LSTag Type="Status" Tooltip="BloodyAllegianceAura_WEAK"&gt;Weakens&lt;/LSTag&gt; enemies in &lt;b&gt;&lt;LSTag Tooltip="test"&gt;8m radius.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+<content contentuid="had76a34cg60e6g4593gb274gfc74c8835fa7" version="1">Demonic Sinister Oreol</content>
+<content contentuid="hec82b4c5g5e70g423fgbfccg427b2b575ca5" version="2">The owner of Bloody Allegiance deals an additional [1] with melee weapon attacks to enemies affected by the Sinister Oreol. 
+
+All allies within 8m of range have +2 bonus to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage to Attacks&lt;/LSTag&gt;.
+
+Bloody Allegiance damage and Enchanting grows with your progression.</content>
+
+
+<content contentuid="ha1f60082g265eg49f1g9f4cgdc0ded446cdd" version="1">Sinister Scream</content>
+<content contentuid="he8ce2fcegb451g47a2gaafcg61542c563bb2" version="2">The owner of Bloody Allegiance deals an additional [1] with melee weapon attacks to enemies affected by the Sinister Oreol.</content>
+
+<content contentuid="hab8d4cf6g7d1fg4247ga2d5ge51318cd35f1" version="1">Sinister Euphoria</content>
+<content contentuid="h3d1e42dfgb935g4cb2gb171g46631685c1b3" version="2">All allies within 8m of range have +2 bonus to &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; and &lt;LSTag Tooltip="Advantage"&gt;Advantage to Attacks&lt;/LSTag&gt;</content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////// AWOK
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+<content contentuid="h476e287dgae1cg431bgbe31g87c87de671a5" version="1">Awakening of Terror</content>
+
+
+
+<content contentuid="h83c6092cga9c1g4401gb766gfc883f74559b" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Once per Battle&lt;/LSTag&gt;&lt;/b&gt; for [1] turns you unleash True Terror: 
+
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+20% Critical Chance.
++1 Action Point, Bonus Action. 
++5 DEX, Advantage on DEX rolls.
++50% faster Movement. &lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+<content contentuid="he29b787bge1f5g4a19g9fcag4811ffa45af8" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Once per Battle&lt;/LSTag&gt;&lt;/b&gt; for [1] turns you unleash True Terror: 
+
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+20% Critical Chance.
++1 Action Point, Bonus Action. 
++5 DEX, Advantage on DEX rolls.
++50% faster Movement. &lt;/LSTag&gt;&lt;/b&gt;
+
+When Cast unleash &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Powerful Shockwave&lt;/LSTag&gt;&lt;/b&gt; that deals [2] in 5m radius and knocks enemies back for 3m.</content>
+
+
+
+
+<content contentuid="hd7e56f7ag108fg422dgbfc7g23357a5503ab" version="1">Terror Onslaught</content>
+
+<content contentuid="ha2ef84c6g29deg43c1g845ag6db04bf3d154" version="1">Charge forward, pushing all objects and creatures in your path [1] away from you and deal them [2].</content>
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////// SHIELD ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+<content contentuid="h7eaf299bg1580g4353g90c2ga7ce1e9a819d" version="1">Demonic Aegis</content>
+<content contentuid="haf46b46bg54d7g40e7gb555g502403d1cd20" version="1">
+If you was damaged by enemy, once per turn, the Aegis retaliates with a &lt;LSTag Type="Spell" Tooltip="MagicHit_Shield_T"&gt;Demonic Ray&lt;/LSTag&gt;.
+This ability reduces your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 5.
+
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 INT, WIS, CHA. &lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+25% Increased Maximum Health. &lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;-2 to All Incoming Damage.&lt;/LSTag&gt;&lt;/b&gt; Power grows each &lt;b&gt;&lt;LSTag&gt;3 LvLs.&lt;/LSTag&gt;&lt;/b&gt;
+You can't be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.
+
+Aegis restore &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Full Health, Level I and II Spell Slot&lt;/LSTag&gt;&lt;/b&gt; after each combat.
+</content>
+
+
+
+<content contentuid="h4403f736ge9acg4dd3gb89eg2ae18ab22e19" version="1">Demonic Aegis - Active Retaliate</content>
+
+
+
+
+
+<content contentuid="hff251776g0040g48fbgb3fagfc02cd14e31a" version="1">Fade/Recover Demonic Aegis</content>
+<content contentuid="h4f22b1aag1331g45e9gb774gf1dd8752e027" version="1">
+If the wielder got damage - strike back with a strong &lt;LSTag Type="Spell" Tooltip="MagicHit_Shield_T"&gt;Demonic Ray&lt;/LSTag&gt; that deals [2].
+
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Aegis retaliates once per turn.&lt;/LSTag&gt;&lt;/b&gt;
+
+This ability reduces your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 5.&lt;/LSTag&gt;</content>
+
+
+
+
+
+<content contentuid="h3ee7a819gea9bg4224g9b38g8bb9fa571ef9" version="1">Hypnotizing Allure</content>
+<content contentuid="hcde9253eg37dfg40aag939cgcb033c5f9fde" version="1">Aura that gives to allies within 8m of range:
+Immunity to &lt;LSTag Type="Status" Tooltip="BURNING_HELLFIRE"&gt;Hellfire&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 Armour Class each&lt;/LSTag&gt;&lt;/b&gt; &lt;b&gt;&lt;LSTag&gt;6 LvLs.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+50% movement speed. &lt;/LSTag&gt;&lt;/b&gt;</content>
+
+
+
+
+<content contentuid="h6a0f3159g58d9g4acfg9b9dgfde8704739cd" version="1">Demonic Wrath</content>
+<content contentuid="h12973cb6g4844g453bgb1e9g7b50688cec94" version="1">Leap sinuously and smash into your foes, deal [1] and possibly knocking them &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;. Upon landing release a &lt;LSTag Type="Status" Tooltip="DemonicShield_AURA"&gt;powerful aura&lt;/LSTag&gt; that gives allies resistance to all damage in 3m radius.</content>
+
+
+
+
+<content contentuid="he5ec4ee2g05ecg4556gb5b6gc11a1001a3cf" version="1">Aegis Insensitivity</content>
+<content contentuid="h7d808e33g2d18g4676g93eag3793d9375e9a" version="1">Gives All damage resistance to All allies in a small 3m radius for [1]. </content>
+
+
+
+
+
+<content contentuid="haa83f8f1g6c0ag4375g89cbgf2c4809ea71f" version="1">Demonic Shield Melee Revenge</content>
+<content contentuid="h9310479dg4bf1g4a60gb83eg7e7273a3eb5f" version="1">Demonic Countenance</content>
+<content contentuid="h3731cd70gb978g4440g81fcg27770a5c1122" version="1">When you receive damage, once per turn - strike back for [1] and push the creature up to 3m away from you.</content>
+<content contentuid="h54b14cf6g8ffag411egaf66gfeb957b764d1" version="1">When you receive damage, once per turn - Aegis retaliates with a beam for [1] in 20m range.</content>
+
+
+
+
+
+<content contentuid="hd047242bg5461g4220g8a16gd8bc8d270c51" version="1">Demonic Annihilation</content>
+<content contentuid="h70c8d4f8g7e47g4889g86e9g2f65ecf89463" version="1">Releases Ancient Forgotten Power, Teleport to an area and deal [1] where you land. The impact blast spreads in a 5m zone, knoking all enemies back for [2] and &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightens&lt;/LSTag&gt; all targets.</content>
+
+
+
+
+<content contentuid="h0a457adegde89g422egbdbag1b081fbbfdd1" version="1">Abyss Zone Cleave</content>
+<content contentuid="h6d67718eg5cdfg4c0ag9652g925ca3047c48" version="1">Swing your weapon in a large arc to attack all enemies at once.
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;5 and 10 LvL.&lt;/LSTag&gt;&lt;/b&gt;
+Cannot be used with Bloody Allegiance Storm Screamer Form.</content>
+
+<content contentuid="hdb170d15gbe03g4579gb347g182b700daf80" version="1">Demonic Void</content>
+<content contentuid="he2d853f9g6a24g4001g9cb4g20b45bd81145" version="1">Release strong magic to attack All enemies in a large arc at once.
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;6,8,10 and 12 LvL.&lt;/LSTag&gt;&lt;/b&gt;
+Requires Bloody Allegiance Storm Screamer Form.</content>
+
+
+<content contentuid="hefc7e5c9g8f96g4b65g895cgaafc4bd9172e" version="1">Ancient Heart Breaker</content>
+<content contentuid="h29a26523g5c1ag413fgb15bg886b79ca4bbb" version="1">Inflicts &lt;LSTag Type="Status" Tooltip="CHEST_TRAUMA"&gt;Chest Trauma&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="DAZED"&gt;Dazes&lt;/LSTag&gt;. Target loses an action and can't take reactions and lose the Dexterity bonus to their &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;5 and 10 LvL.&lt;/LSTag&gt;&lt;/b&gt;
+Cannot be used with Bloody Allegiance Storm Screamer Form.</content>
+
+<content contentuid="h0af475d6gbeb2g4e78g895agb48b305324f8" version="1">Demonic Carnage</content>
+<content contentuid="h707cbc51gdab9g427bga4bfgbee17d73f8cc" version="1">Make a fast double attack on creature and make them &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;Bleed&lt;/LSTag&gt;. If weapons are dually wielded make two attacks for both of them.
+
+Skill damage power increased at &lt;b&gt;&lt;LSTag Tooltip="test"&gt;5 and 10 LvL.&lt;/LSTag&gt;&lt;/b&gt;
+Cannot be used with Bloody Allegiance Storm Screamer Form.</content>
+
+
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Demonic Shield: Bless</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Demonic Shield: Bless</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Demonic Shield: Bless</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+
+
+
+
+
+
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+<content contentuid="h69e6deb5g3112g43c2gb65cg8d756b620ca7" version="2">A nimble greatsword, heavy with the promise of broken bones.</content>
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+<content contentuid="h745625f5g5458g46e3g9169g0851ac72503b" version="1">Death's Embrace</content>
+<content contentuid="h0aafafebg3fb9g44ebgb591g5871955589c4" version="1">The weapon absorbs the energy of defeated souls, increasing the wielder's power by &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_7500"&gt;Impossible amounts&lt;/LSTag&gt; . Losing or replacing a weapon will result in total loss of all powers. &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Applies after combat.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+<content contentuid="h8401ae3eg0cecg4d36g942fgb609f263980d" version="1">Death's Embrace I</content>
+<content contentuid="h707e0b1fgee09g462fg8e2eg75de8eae4079" version="1">First stage, one defeated soul power.
+
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+5% all accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 INT, DEX.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+<content contentuid="haeaafdd2g0d78g4453gb8d0gcb4561ff3018" version="1">Death's Embrace II</content>
+<content contentuid="ha8d74de2g0dbcg4034gab39g2c9b041d8584" version="1">100 Defeated sould power. Stage II.
+All your attacks have a bonus [1].
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+5% all accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+1 INT, DEX, WIS.&lt;/LSTag&gt;&lt;/b&gt;
+Gives ability to use &lt;LSTag Type="Spell" Tooltip="Infernalcrawler_Demonic2"&gt;Tormentor Appearance&lt;/LSTag&gt; Spell.</content>
+
+<content contentuid="hde8eab31gb7a3g4e57ga7e0g6c70f858d958" version="1">Death's Embrace III</content>
+<content contentuid="h01b915abg5b3fg45d9g9ef3ga7dc0003ccb7" version="1">250 Defeated souls power. Stage III.
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+10% all accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+2 to All Stats.&lt;/LSTag&gt;&lt;/b&gt;
+All your attacks have a bonus [1].</content>
+
+<content contentuid="h6a8e75a2gc622g41b3ga5bage0abd8a9ee6c" version="1">Death's Embrace IV</content>
+<content contentuid="h0a4fc8a1gc1b6g4b44gb4e9g3079c667d6d2" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Stage IV.&lt;/LSTag&gt;&lt;/b&gt; 500 Defeated souls power.
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+15% all accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+3 to All Stats.&lt;/LSTag&gt;&lt;/b&gt;
+All your attacks have a bonus [1].
+Your attacks ignores &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Force resistance.&lt;/LSTag&gt;&lt;/b&gt;</content>
+
+<content contentuid="ha092d157gf6f1g4fa5ga58bge08ef1064a28" version="1">Death's Embrace V</content>
+<content contentuid="h21edc4degd4c8g4c10g8992g26e6b4f105b7" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Stage V.&lt;/LSTag&gt;&lt;/b&gt; 1000 Defeated souls power.
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+4 All Stats.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+20% All Accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+5% Critical chanse.&lt;/LSTag&gt;&lt;/b&gt;
+All your attacks have a bonus [1].
+Your attacks ignores &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Force resistance.&lt;/LSTag&gt;&lt;/b&gt;
+Gives ability to use &lt;LSTag Type="Spell" Tooltip="Infernalcrawler_Demonic2"&gt;Tormentor Appearance&lt;/LSTag&gt; Spell.</content>
+
+<content contentuid="ha7769ab9gf89cg41c4gaa98g7b508a17cc0a" version="1">Death's Embrace VI</content>
+<content contentuid="h2730ec0bgee26g429dg9b9ag2282366d01b9" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Stage VI.&lt;/LSTag&gt;&lt;/b&gt; 2500 Defeated souls power.
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+5 All Stats.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+25% All Accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+10% Critical chanse.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+50% Maximum Health.&lt;/LSTag&gt;&lt;/b&gt;
+All your attacks have a bonus [1].
+Your attacks ignores &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Force resistance.&lt;/LSTag&gt;&lt;/b&gt;
+Gives ability to use &lt;LSTag Type="Spell" Tooltip="Infernalcrawler_Demonic2"&gt;Tormentor Appearance&lt;/LSTag&gt; Spell.</content>
+
+<content contentuid="h56077e6ag1cf0g4f48g93dfg4e07233b6c53" version="1">Death's Embrace VII</content>
+<content contentuid="h68a034e4g385bg4917g8c23ge6ade7f9b7ac" version="1">&lt;b&gt;&lt;LSTag Tooltip="test"&gt;Stage VII.&lt;/LSTag&gt;&lt;/b&gt; 7500 Defeated souls power.
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+10 All Stats.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+50% All Accuracy.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+20% Critical chanse.&lt;/LSTag&gt;&lt;/b&gt;
+&lt;b&gt;&lt;LSTag Tooltip="test"&gt;+150% Maximum Health.&lt;/LSTag&gt;&lt;/b&gt;
+All your attacks have a bonus [1].
+Your attacks ignores &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Force resistance.&lt;/LSTag&gt;&lt;/b&gt;
+Gives ability to use &lt;LSTag Type="Spell" Tooltip="Infernalcrawler_Demonic2"&gt;Tormentor Appearance&lt;/LSTag&gt; Spell.</content>
+
+<content contentuid="h5c77951fg2027g4ea9g8e12g1ede1252dc6b" version="1">Fallen souls.</content>
+<content contentuid="hadc34a60g0beeg4c23g842cg361c03769b44" version="1">Number of souls defeated in combat.
+The more souls you defeat the more powerful you become by stages: &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_1"&gt;Stage I&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_100"&gt;Stage II&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_250"&gt;Stage III&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_500"&gt;Stage IV&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_1000"&gt;Stage V&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_2500"&gt;Stage VI&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="SoulsTormentNumber_7500"&gt;Stage VII&lt;/LSTag&gt;.</content>
+
+
+<content contentuid="hb363acd2g68ccg4e60gbf8bg8032a1e8bc81" version="1">Hide/Apply Demonic Eyes</content>
+<content contentuid="h480e0f50g04f3g4833g9cf9gb803cc5a8a1c" version="1">Hide or Apply Demonic Eyes effect added by your &lt;b&gt;&lt;LSTag Tooltip="test"&gt;Death Embrace Stage.&lt;/LSTag&gt;&lt;/b&gt; </content>
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+<content contentuid="h475d958ag2266g4f12g8ccagc26dc67d40bb" version="1">Demonic Ancient Slasher</content>
+<content contentuid="h80400137g7e48g4301gbf01g0fc4a6a3da43" version="1">Demonic Storm Screamer</content>
+
+<content contentuid="h4a227d98g2b3dg4232gba03g9d09b9b4aea1" version="1">Punishment of the Bloody Allegiance</content>
+<content contentuid="h5130dd5fg8768g4a21g8630g7e6db364d7ec" version="1">Justice of the Bloody Allegiance</content>
+
+
+
+
+
+
+
+<content contentuid="h58fc8fe3gfabeg4578g8de2g942176657edd" version="1">Demonic sareevok</content>
+<content contentuid="h2a5b2c3bgdfc1g45a1g97b6g1c2b39774af4" version="1">Demonic skeletons</content>
+
+
+<content contentuid="hd70fb842g16d8g40a9gbb00g6c67833446e9" version="1">Bloody Countenance</content>
+<content contentuid="h439e94c3ge414g44c6g8fbeg8c284bd33c08" version="1">Upon taking damage, performs an immediate retaliatory Ray of malice, summoning two Demonic Spirits of Bloody Allegiance.
+
+Demonic ray deals [1] in 3m radius around the target.</content>
+
+<content contentuid="h4535718fg925bg4e8bgb539g30233bc8960a" version="1">Upon taking damage, performs an immediate retaliatory Ray of malice, summoning tree Demonic Spirits of Bloody Allegiance.
+
+Demonic ray deals [1] in 3m radius around the target.</content>
+
+
+
+<content contentuid="h9930b389gd16fg40a9g9587g49b1bef43ab6" version="1">Bloody Allegiance</content>
+<content contentuid="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1">Demonic Aegis</content>
+<content contentuid="h421f0614g411bg417ega8bcg08e3d2898eaf" version="1">Bloody Countenance</content>
+<content contentuid="h648593cfg91fag4b65g8bf1ge26777ee7e6b" version="1">Bloody Allegiance - Rapier</content>
+<content contentuid="hffdf6be4g9151g42abgae71gd02781ae114f" version="1">Bloody Allegiance - GreatSword</content>
+<content contentuid="h8ed8a03dga912g48bfgb872g1ca47c6b4764" version="1">Bloody Allegiance - Not Sheatable</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Countenance</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Countenance</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Countenance</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+
+
+
+
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Countenance</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Demonic Shield: Bless</content>
+<content contentuid="h1a1ffb0eg3bddg45a6g9f64g1d675cef3d0d" version="1">Bloody Allegiance: Scream</content>
+
+</contentList>

@@ -1,0 +1,2311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="EffectBank">
+		<node id="EffectBank">
+			<children>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10.5 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -9.5 -10" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Status_MAG_LIGHT_DIVINE_01_TEST" />
+					<attribute id="ID" type="FixedString" value="0e44b531-a7f4-4db6-bfe6-d7959348aaba" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Status_MAG_LIGHT_DIVINE_01_TEST" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Status_MAG_LIGHT_DIVINE_01_TEST.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144255925564211200" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="606bdb1d-3f5f-437d-b848-c3c233697ba0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e456630-da0c-c612-9903-d79007e51257" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e263d7d-5293-2494-167c-2723b827fde7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="887209a8-2f82-dd64-7ac2-225821c845d9" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10.5 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -9.5 -10" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="LIGHT_DIVINE_RED_TEST" />
+					<attribute id="ID" type="FixedString" value="3ab4084f-a8ae-4dbf-a200-c09cd2224ba3" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="LIGHT_DIVINE_RED_TEST" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/LIGHT_DIVINE_RED_TEST.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144255925564211200" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="606bdb1d-3f5f-437d-b848-c3c233697ba0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e456630-da0c-c612-9903-d79007e51257" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a1a7099-9c46-4d5f-8f00-a249af1dc519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e263d7d-5293-2494-167c-2723b827fde7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="887209a8-2f82-dd64-7ac2-225821c845d9" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Oath_TEST" />
+					<attribute id="ID" type="FixedString" value="cd17cd86-ebed-4194-b29a-a045e8165046" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Oath_TEST" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Oath_TEST.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ae68383d-b1ad-1968-3616-5d2ea373dfbe" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="af94cce8-f28b-62e0-9f4a-2ce8100f138f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fc8a38bd-9e1d-0eb0-0d0d-b4a316de657e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="784122a9-575c-2b35-20de-ec620d01b519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3ce0cdbf-171d-fb09-23fa-0233c8430d7a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1005d84b-e022-9326-ba6b-a6c7d2570d73" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4a7ef7b5-d9b7-f72f-ba33-8d6c1b18bcb8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3660debe-7fca-617f-869c-87ea61e97ac4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="aca13066-f88a-f738-9da7-1ec9196ee17c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e25f465b-b1fa-c4a7-8d0c-38020802a170" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d686ed3e-0708-069e-4d02-1c9458d2cd79" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="12f3193c-ce1a-5a69-1bf0-8537b9b606f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Oath_RED_GLOW" />
+					<attribute id="ID" type="FixedString" value="15c4c3f5-a77d-4bda-8d4e-6cd46ef8e639" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Oath_RED_GLOW" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Oath_RED_GLOW.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ae68383d-b1ad-1968-3616-5d2ea373dfbe" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="af94cce8-f28b-62e0-9f4a-2ce8100f138f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fc8a38bd-9e1d-0eb0-0d0d-b4a316de657e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="784122a9-575c-2b35-20de-ec620d01b519" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3ce0cdbf-171d-fb09-23fa-0233c8430d7a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1005d84b-e022-9326-ba6b-a6c7d2570d73" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4a7ef7b5-d9b7-f72f-ba33-8d6c1b18bcb8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3660debe-7fca-617f-869c-87ea61e97ac4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="aca13066-f88a-f738-9da7-1ec9196ee17c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e25f465b-b1fa-c4a7-8d0c-38020802a170" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d686ed3e-0708-069e-4d02-1c9458d2cd79" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="12f3193c-ce1a-5a69-1bf0-8537b9b606f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="Oath_Hand_FX" />
+					<attribute id="ID" type="FixedString" value="6b0a7bf4-769e-4807-93e5-2f4814bb2544" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Oath_Hand_FX" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Oath_Hand_FX.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4fab5934-5df0-2631-2539-a6473b9311c5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="618f2858-eb16-d3b6-e7ae-383afb1606c6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6e33731d-63aa-cadc-f607-411f24d77bf9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="840e2eb8-231b-2d73-47f0-3effb61eb84d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="920df051-7d30-cfbc-b765-1de87b225a61" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2a164945-93f6-a132-bf7a-27ded4da2132" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_DestrucWave_RAD" />
+					<attribute id="ID" type="FixedString" value="d453d640-1e96-4153-802f-e2bbcf842d70" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_DestrucWave_RAD" />
+					<attribute id="Radius" type="float" value="10" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_DestrucWave_RAD.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241810" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="305c04c6-b37c-d841-2d96-c18d92741777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="402b6075-2365-4009-b655-005121f722af" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="768b77e0-4a9c-fdfa-569e-023d1d26b488" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6e1df8de-84a8-ace7-661e-902cb125b655" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="46e0c900-3481-d86b-9f1f-e97ac61b8a04" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c1ea5d5e-ba6d-e492-5ed3-8c8d7696ab9b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="317bf423-2205-46f1-6932-c1e980336040" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0baf3704-8a44-96b6-0dc4-1e3e1cc951f6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ce9ec693-ae2c-ebe2-cbea-3e36ae441c4b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fa83a158-7ce2-2241-2602-3186ca09d7d4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="022413d7-0e40-43f8-ba85-6aeeacb2a13a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29c0aa1f-7de3-8dbd-be47-2aa7d4a88447" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="972b996e-282d-711a-72e5-cc2f0fc6e811" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7e596320-9d50-68ab-0bb7-8e978d539450" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="99807c2b-3a92-c604-65ec-e7148ebb34c3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="79d3616d-254a-3073-c114-c6e0cc992b38" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25c790de-e82f-c3bc-dfd2-a20247033e46" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10.5 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -9.5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_GuardianWeapon" />
+					<attribute id="ID" type="FixedString" value="d1bfe764-2af2-4706-ba80-ae924e0daa6f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_GuardianWeapon" />
+					<attribute id="Radius" type="float" value="7.794229" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_GuardianWeapon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725058" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 0" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="10" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Call_Thunder_Blood" />
+					<attribute id="ID" type="FixedString" value="1a4db1a5-4ecf-46e7-a67c-8f126d5c152d" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Call_Thunder_Blood" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Call_Thunder_Blood.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7cf7f084-d7b4-be12-315d-20b4172e9cae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3b180a56-a994-9efc-b5e4-fec583e83af5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="35 35 35" />
+					<attribute id="BoundsMin" type="fvec3" value="-35 -35 -35" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.501067" />
+					<attribute id="EffectName" type="FixedString" value="VFX_DivineIntervention_Blood" />
+					<attribute id="ID" type="FixedString" value="320e4694-969c-4107-ad6f-679c450767b1" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_DivineIntervention_Blood" />
+					<attribute id="Radius" type="float" value="60.62178" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_DivineIntervention_Blood.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725668" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6e1df8de-84a8-ace7-661e-902cb125b655" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f2173d4a-db43-f58d-b7f0-eef97e66931a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e1102146-9115-2d4b-1d81-e00d7df6b3fe" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d4cec0f-db2c-8612-f20d-e231fdd799cb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7ca0116-94d5-a4d5-f660-1d77f80866e5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4e566c94-fe54-2476-5f5e-25f66ebfacbc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ac4f0e21-c25b-751f-baed-7bff3ebe9faf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="768b77e0-4a9c-fdfa-569e-023d1d26b488" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="8 11.5 8" />
+					<attribute id="BoundsMin" type="fvec3" value="-8 -4.5 -8" />
+					<attribute id="Center" type="fvec3" value="0 3.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="10" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Strike_Blood" />
+					<attribute id="ID" type="FixedString" value="1ea1010e-7353-4e22-8c5f-7fc399a09b00" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Strike_Blood" />
+					<attribute id="Radius" type="float" value="13.85641" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Strike_Blood.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209009" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7cf7f084-d7b4-be12-315d-20b4172e9cae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3b180a56-a994-9efc-b5e4-fec583e83af5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="20 20 20" />
+					<attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Stomp_Blood_Cast" />
+					<attribute id="ID" type="FixedString" value="4bd167ef-8d56-41c9-9fb7-f54ac1c4beb0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Stomp_Blood_Cast" />
+					<attribute id="Radius" type="float" value="34.64102" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Stomp_Blood_Cast.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758066" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e71cde66-2640-b288-177b-a12a7136877f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e134d272-5f69-4d15-2b3a-1c1ff819852b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29c0aa1f-7de3-8dbd-be47-2aa7d4a88447" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a4f5e4d1-7009-0158-f374-023d15dd5450" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c427b621-85de-6486-72ce-274318a78257" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="aa60e6ce-5934-0b15-6edc-8ec7ddfc7867" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c0ee5929-fe44-6966-1e55-d933620fa661" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Stomp_Foot_Blood" />
+					<attribute id="ID" type="FixedString" value="fdf06b54-23b5-40c7-9e62-ebbd2baa896d" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Stomp_Foot_Blood" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Stomp_Foot_Blood.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274412" />
+					<children>
+						<node id="Dependencies" />
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="20 20 20" />
+					<attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Stomp_Root_Blood" />
+					<attribute id="ID" type="FixedString" value="b83fe4b7-7d86-463b-9c81-b9129c351873" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Stomp_Root_Blood" />
+					<attribute id="Radius" type="float" value="20" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Stomp_Root_Blood.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274412" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="90173dfc-e31d-3943-22f7-15485b0b91bb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="39f6fbef-4b40-0bdb-e513-aff7232349a8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b5b29729-8a97-fc39-bdb2-176dcce22dbe" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="20 20 20" />
+					<attribute id="BoundsMin" type="fvec3" value="-20 -20 -20" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Stomp_Root_Blood_01" />
+					<attribute id="ID" type="FixedString" value="e2b0bfe4-51f6-44b6-b25b-165c3d279c9f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Stomp_Root_Blood_01" />
+					<attribute id="Radius" type="float" value="34.64102" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Stomp_Root_Blood_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274412" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="19b57a7a-fad8-a9b2-42b2-c8448fdcb480" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="9 10 9" />
+					<attribute id="BoundsMin" type="fvec3" value="-9 -8 -9" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_CircleOfDeath_Position_Blood" />
+					<attribute id="ID" type="FixedString" value="1c595926-e89f-43ca-b51c-699ffe550c24" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_CircleOfDeath_Position_Blood" />
+					<attribute id="Radius" type="float" value="15.58846" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_CircleOfDeath_Position_Blood.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241808" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="276d17b8-da18-6e04-2304-f5e7b0ea2621" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="35616aa2-cdec-342a-943c-74b0fd665ecf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bf272981-98bd-04b2-f4bb-e4e5e0fa6604" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9acfb87b-b0b3-50a7-7408-414d4246d2b4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="88ab1c5e-5bcd-e4a5-7249-9c6a439a18d6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f51d4ea9-e053-382a-31b6-7d2458e4aab3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="9 9 9" />
+					<attribute id="BoundsMin" type="fvec3" value="-9 -9 -9" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="6.999999" />
+					<attribute id="EffectName" type="FixedString" value="VFX_CircleOfDeath_Position_Blood_Text" />
+					<attribute id="ID" type="FixedString" value="d89f4981-092a-489e-a5c9-b61dd5404b3e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_CircleOfDeath_Position_Blood_Text" />
+					<attribute id="Radius" type="float" value="9" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_CircleOfDeath_Position_Blood_Text.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241710" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f725b8e0-e32a-e0fb-db9d-bdbb0d254c36" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="83fe3c2c-7557-b45f-e7c2-c988dc149799" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="803f0120-5812-8d90-c78d-b7428b1675c6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="74220836-4e07-6045-3c1a-12b914c1d2bd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65ddcfa5-6421-09ce-1b2f-c7b0cf039777" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5ab4200c-0c40-8779-258f-45829397e9cd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6809c7c7-f5a0-8ce0-ffb1-15dac6918c6f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ebfbf452-11ae-460a-96e5-5d1afaae10c3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1.13 0.9 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.87 -1.1 -1" />
+					<attribute id="Center" type="fvec3" value="0.13 -0.1 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="1.3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Shield_Demonic" />
+					<attribute id="ID" type="FixedString" value="571b9479-b5fa-4d7a-a268-7688379c095e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_Shield_Demonic" />
+					<attribute id="Radius" type="float" value="1.732051" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Shield_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="badb88e7-a1bf-db03-f4f3-3f42646903bc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0f0640d3-1e06-814c-9ac5-3d5d17695829" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d430d566-1e96-7113-6728-8bab9341e1a3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="90173dfc-e31d-3943-22f7-15485b0b91bb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="8 8 8" />
+					<attribute id="BoundsMin" type="fvec3" value="-8 -8 -8" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="4.001314" />
+					<attribute id="EffectName" type="FixedString" value="VFX_DragonSkeletalBody_Demonic" />
+					<attribute id="ID" type="FixedString" value="9dbfab10-9624-4caa-a4ca-aa0f08814f65" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="VFX_DragonSkeletalBody_Demonic" />
+					<attribute id="Radius" type="float" value="13.85641" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_DragonSkeletalBody_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209012" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b2c001e7-33c3-af2b-2479-8bcd55bd86da" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22bdf834-9c45-8876-b4e6-bb56d31fdac1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="598b2ea7-b137-15cd-d69a-930dff61a346" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2.886751 2.886751 1.386751" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.886751 -2.886751 -4.386751" />
+					<attribute id="Center" type="fvec3" value="0 0 -1.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="VFX_DragonSkeletalWeapon_Demonic" />
+					<attribute id="ID" type="FixedString" value="dcebd82e-7d40-4bfc-a241-34952a5164c4" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="VFX_DragonSkeletalWeapon_Demonic" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_DragonSkeletalWeapon_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208706" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22bdf834-9c45-8876-b4e6-bb56d31fdac1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_DragonSkeletaImpact_Demonic" />
+					<attribute id="ID" type="FixedString" value="eddbef2a-d465-4536-8e6c-9cfad2625a6f" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="VFX_DragonSkeletaImpact_Demonic" />
+					<attribute id="Radius" type="float" value="17.32051" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_DragonSkeletaImpact_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209008" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7cf7f084-d7b4-be12-315d-20b4172e9cae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3b180a56-a994-9efc-b5e4-fec583e83af5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ebfbf452-11ae-460a-96e5-5d1afaae10c3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 10" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="VFX_DragonSkeletaImpact_Violet" />
+					<attribute id="ID" type="FixedString" value="1e6e7cf7-0b40-4396-87ab-df4cb71c328b" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="VFX_DragonSkeletaImpact_Violet" />
+					<attribute id="Radius" type="float" value="17.32051" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_DragonSkeletaImpact_Violet.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209008" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7cf7f084-d7b4-be12-315d-20b4172e9cae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3b180a56-a994-9efc-b5e4-fec583e83af5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ebfbf452-11ae-460a-96e5-5d1afaae10c3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="4 4 4" />
+					<attribute id="BoundsMin" type="fvec3" value="-4 -4 -4" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="VFX_DragonSkeletalBody_Violet" />
+					<attribute id="ID" type="FixedString" value="7febfc8a-6e1f-4300-ad38-197bd2ef9c91" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_DragonSkeletalBody_Violet" />
+					<attribute id="Radius" type="float" value="6.928203" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_DragonSkeletalBody_Violet.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208707" />
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 0" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="10" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Call_Thunder_Violet" />
+					<attribute id="ID" type="FixedString" value="8c57b670-5692-4e0e-a5cc-645847841a5b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Call_Thunder_Violet" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_Call_Thunder_Violet.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="25d0bca9-7051-98ea-6c8c-58536917a864" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0fb917cc-128d-3eaa-0927-4c3a42f0101a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7cf7f084-d7b4-be12-315d-20b4172e9cae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3b180a56-a994-9efc-b5e4-fec583e83af5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 0" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2.000052" />
+					<attribute id="EffectName" type="FixedString" value="VFX_MindSteal_Demonic" />
+					<attribute id="ID" type="FixedString" value="345b2818-a50d-4e55-923c-c41000517623" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_MindSteal_Demonic" />
+					<attribute id="Radius" type="float" value="8.660254" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_MindSteal_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241813" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8b853a92-bcdf-bd5e-3f0a-a3c7893567bc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b5dd8d98-46ef-79bb-478f-612b8f47c8ca" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="68f1ce79-3858-d978-a424-317527480bce" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d5e130fa-bfa2-ffc8-e324-0fd7dcd8f1b3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f247fd65-cfa3-679c-15ad-ab21948aa11c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f2219a9d-d817-f816-342a-84a236ec2a00" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="52c5db17-8a9e-8436-dc11-338301f99bb7" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d02f30fb-e343-446c-ef67-892476186bf0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d76259d5-8693-a0c0-9377-d04d5222677c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c11b1b7d-7c1e-b136-2d89-1aa1d7cd5e0d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e7b55705-01cd-edbd-7a8d-25321c31904d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="348802b5-4d62-81ea-3434-eac27306f6f1" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="15 15 15" />
+					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -15" />
+					<attribute id="CullingDistance" type="float" value="60" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="BlackHol_Removed" />
+					<attribute id="ID" type="FixedString" value="9081d2d0-11c4-4382-860e-a1c4217647f9" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="BlackHol_Removed" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/BlackHol_Removed.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d63c9aec-8580-3b65-f43d-63a84726629c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ca8674d7-b24c-22fd-5d4d-d8b4e42d5e80" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2754d954-6254-01a9-8d41-48b6ca389c82" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f0264527-81ea-6dc5-a9b0-b1b6532e05fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29ec1021-fd69-fbc0-957f-d6f550fb4b17" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0bd6700c-cb83-f377-534c-414c9a2ef3e8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4f5b525d-cdf7-1d04-2db5-d1f6e28c013b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2c43722a-0a68-81d4-76a1-729c094346e7" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="15 15 15" />
+					<attribute id="BoundsMin" type="fvec3" value="-15 -15 -15" />
+					<attribute id="CullingDistance" type="float" value="60" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="BlackHol_Removed2" />
+					<attribute id="ID" type="FixedString" value="ff70815f-c58b-4ad1-884c-667c6c6a572c" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="BlackHol_Removed2" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/BlackHol_Removed2.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d63c9aec-8580-3b65-f43d-63a84726629c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ca8674d7-b24c-22fd-5d4d-d8b4e42d5e80" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2754d954-6254-01a9-8d41-48b6ca389c82" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f0264527-81ea-6dc5-a9b0-b1b6532e05fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="29ec1021-fd69-fbc0-957f-d6f550fb4b17" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0bd6700c-cb83-f377-534c-414c9a2ef3e8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4f5b525d-cdf7-1d04-2db5-d1f6e28c013b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2c43722a-0a68-81d4-76a1-729c094346e7" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 6 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -11" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="Sunbeam_Demon" />
+					<attribute id="ID" type="FixedString" value="224ae563-cfb4-42da-87ca-f795d5e593bd" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="Sunbeam_Demon" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Sunbeam_Demon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922156" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9a67df72-d98b-0e80-da5b-e528de992bf4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d52f6b18-1e8e-7b61-6d0f-267f513b4f52" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6f366982-6e09-66e0-8046-1cad9dc56d9f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f60bc7b0-6a4b-862d-4940-ea4dafaa7317" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="520dc9d6-00ac-f960-bbde-b4ddf95dc21f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5ac88639-11d3-a296-fcba-42885c5bb314" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1dca510-8210-0055-2d9d-eaeb8642f3d4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8d4d77fe-3061-f357-66a8-75584eb1858d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="64372bfd-6d50-67a3-049a-d877e58ecd3c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="490a0867-f298-2f78-e11b-a2983e2547f5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9af79004-8274-1cd1-4dc8-2e3aee687b24" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="46832c3d-d178-877d-a255-f746528da35e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bad86cdd-609e-2a68-6f1c-b12db90bb29f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4e94949-9448-0031-5a8a-19d1685435ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 0" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="VFX_FingerOfDeath_Beam_Demon" />
+					<attribute id="ID" type="FixedString" value="5374e917-1939-4773-b885-5df3967d6e71" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="VFX_FingerOfDeath_Beam_Demon" />
+					<attribute id="Radius" type="float" value="8.660254" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_FingerOfDeath_Beam_Demon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241813" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f1d43518-55f1-1419-0b34-60889183a272" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="31016442-acaa-f6ea-e21e-53b5bc002268" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d0e8ec47-601a-0426-fe48-7f7ed38e6ad4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fa3c0800-d2d5-4601-8ba5-34be0586b7cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="384bfe1e-0a2b-4c57-c4d9-6b5957edc9fd" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 0" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="FingerOfDeath_Beam_Demon" />
+					<attribute id="ID" type="FixedString" value="35ad2506-6393-4591-b4f1-9ee6ebb4d7e8" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="FingerOfDeath_Beam_Demon" />
+					<attribute id="Radius" type="float" value="8.660254" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/FingerOfDeath_Beam_Demon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241813" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f1d43518-55f1-1419-0b34-60889183a272" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="31016442-acaa-f6ea-e21e-53b5bc002268" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d0e8ec47-601a-0426-fe48-7f7ed38e6ad4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fa3c0800-d2d5-4601-8ba5-34be0586b7cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="384bfe1e-0a2b-4c57-c4d9-6b5957edc9fd" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 0" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="60" />
+					<attribute id="Duration" type="float" value="2.04258" />
+					<attribute id="EffectName" type="FixedString" value="VFX_FearRay_Demonic" />
+					<attribute id="ID" type="FixedString" value="7826933f-738a-4703-88d0-a53a298fa9d5" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="VFX_FearRay_Demonic" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_FearRay_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d1dca510-8210-0055-2d9d-eaeb8642f3d4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6c41fbaf-b50b-7aa6-d58b-d8a895bba31e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22913db7-c16d-8259-8539-311f6c14aa27" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="27ca1cd9-73d0-0901-372b-478bd1f7e7e3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="821de826-473d-6579-2844-71384d7d752e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="402b6075-2365-4009-b655-005121f722af" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="97b12629-982f-c7b4-7807-1ca4cd35e0aa" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="dda44a7e-58bf-8fe7-70d6-bae48845fc8d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="10e191cd-82e0-945d-d326-70c357af42b8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="87126f58-b84f-8b3d-a953-e7a01aeb6a0e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="e715bb7b-17a3-304e-7a88-e920be5f30f3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6809c7c7-f5a0-8ce0-ffb1-15dac6918c6f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="616a337d-352c-9fff-633a-8d58730d6506" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="60" />
+					<attribute id="Duration" type="float" value="2.04258" />
+					<attribute id="EffectName" type="FixedString" value="VFX_RayOfEnfeeblement_Demonic" />
+					<attribute id="ID" type="FixedString" value="9b57478e-78b4-4b26-ae31-9490503b782b" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="VFX_RayOfEnfeeblement_Demonic" />
+					<attribute id="Radius" type="float" value="17.32051" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/VFX_RayOfEnfeeblement_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="710a484b-be07-8b50-a6e8-5d2fdc636f77" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9a67df72-d98b-0e80-da5b-e528de992bf4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5bc7c662-b431-468b-db41-3888eb012b99" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="10 10 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-10 -10 -15" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="BeamConcentrated_Demonic" />
+					<attribute id="ID" type="FixedString" value="899870cf-085f-4bfd-934e-3bdea480fe07" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="BeamConcentrated_Demonic" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/BeamConcentrated_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="710a484b-be07-8b50-a6e8-5d2fdc636f77" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9a67df72-d98b-0e80-da5b-e528de992bf4" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5bc7c662-b431-468b-db41-3888eb012b99" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5c059120-b5e0-948f-2af3-bc050f09aff9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f12c073f-f9e9-067d-1ecc-33308473470d" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1.5 1.5 0" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.5 -1.5 -10" />
+					<attribute id="Center" type="fvec3" value="0 0 -5" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.5" />
+					<attribute id="EffectName" type="FixedString" value="BeamsLightning_Violet" />
+					<attribute id="ID" type="FixedString" value="37a3b673-d19e-428e-8d2a-fbfd9f369187" />
+					<attribute id="InterruptionMode" type="uint32" value="1" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="FixedString" value="BeamsLightning_Violet" />
+					<attribute id="Radius" type="float" value="5.43139" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/BeamsLightning_Violet.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209008" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="804a9887-15fc-ad4c-a78a-a53545e2a196" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="94b29bf3-0b99-3d5c-2d0b-2410e201aabb" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f51d4ea9-e053-382a-31b6-7d2458e4aab3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="2ec77517-7a5a-f53b-4809-9b909d6c5328" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="042147c1-75ac-a2bf-2f2c-bbfe055ea7cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f5a7fc9e-ce58-7b41-fd0c-89f5cfe47841" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a81ddf67-e243-0150-2a9a-fc184c1dff51" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 5 2.5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -5 -7.5" />
+					<attribute id="Center" type="fvec3" value="0 0 -2.5" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="6.55" />
+					<attribute id="EffectName" type="FixedString" value="FingerOfDeath_Impact_Demon" />
+					<attribute id="ID" type="FixedString" value="9327491b-2a8c-4b0c-ab70-630f01ef275f" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="FingerOfDeath_Impact_Demon" />
+					<attribute id="Radius" type="float" value="8.660254" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/FingerOfDeath_Impact_Demon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc8619b9-92cf-d0bc-f770-8e6775cb0220" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5f50a2ac-ddfa-daef-eac4-e34c386cb4a6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7affa60-34c3-a900-3e64-4ddcb6280901" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8f1497a0-86ed-325c-ac10-5783e1c2eff3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d667c67-7e15-d75a-773b-1fffe4010d55" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="72a19c48-148f-c5d4-2370-03d8b5866150" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4b32aed8-01c8-5ab2-adcc-2b5fad7712cf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ab6c61b4-df3c-0e15-c111-bb676009699d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="7 7 7" />
+					<attribute id="BoundsMin" type="fvec3" value="-7 -7 -7" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="5" />
+					<attribute id="EffectName" type="FixedString" value="Disintegrate_Impact_Demon" />
+					<attribute id="ID" type="FixedString" value="16985e25-2378-4fc5-8f65-c7ee04b5c000" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="Disintegrate_Impact_Demon" />
+					<attribute id="Radius" type="float" value="7" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Disintegrate_Impact_Demon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241811" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f31385c9-20dc-61bb-a980-fa9739cc61c5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f7fc084b-d098-0d9a-8033-1cb61c3beb37" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="705bcdca-a937-9dfa-983f-25238afab834" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c851631a-669c-fb82-9138-93833bdb62f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5e1b3b30-8ca9-ea66-5346-d2a89dbf79fc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="dccc47fe-2904-37f0-2eb5-35e3515c57e5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0b78ac8d-4ce5-2026-0fe5-8d87da5533cc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="654bf0db-82bd-64fd-abe0-2b3b8a8d6c6b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="642f797e-cc01-7453-788a-ade071592d06" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1.25 1.25 1.25" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.25 -0.25 -1.25" />
+					<attribute id="Center" type="fvec3" value="0 0.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="Whir_Demonic" />
+					<attribute id="ID" type="FixedString" value="6a3ad119-3d39-4cf4-9085-86f079394db3" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="FixedString" value="Whir_Demonic" />
+					<attribute id="Radius" type="float" value="1.920286" />
+					<attribute id="SourceFile" type="FixedString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Whir_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725662" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="89d63f8d-46de-6205-ce2f-a4a5cd6f6c12" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="811220a1-2b46-b5af-73fb-02576e77d0f1" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="177ee666-db1b-7f9d-04fb-e2202c30c7fd" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="71705a3f-8cea-2fda-f97c-fb247891a951" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b600f1aa-aa1b-f4a7-e85f-4334b1351594" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="bc30ebb8-88d4-39cf-f8f1-be094357932e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7.5 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -2.5 -5" />
+					<attribute id="Center" type="fvec3" value="0 2.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="HitParticleDemonic" />
+					<attribute id="ID" type="FixedString" value="34abce75-138f-4d8b-a1bb-0d62584cab34" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="HitParticleDemonic" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/HitParticleDemonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="8095f74a-0154-0428-fe7f-373446cc37e2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1.6" />
+					<attribute id="EffectName" type="FixedString" value="Status_Radiate_Demonic1" />
+					<attribute id="ID" type="FixedString" value="784dd544-c763-488b-b71f-b5ced399ed95" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Status_Radiate_Demonic1" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Status_Radiate_Demonic1.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725669" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d3e28de7-619b-20c4-a1eb-281dafcf3605" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="f8294399-9807-efd2-244b-bfc7e17d13ad" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="698fac1f-0e12-a27f-c149-7bc1b5e3b014" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ae68383d-b1ad-1968-3616-5d2ea373dfbe" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3baa4db5-49da-1eda-78d9-410798f2a043" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cb37b9cc-6780-4a9b-84e2-31a7445ace1a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4e3c9c4b-38f8-478f-b15f-3f080e664450" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 2 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -2 -2" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="4" />
+					<attribute id="EffectName" type="FixedString" value="Status_Radiate_Demonic2" />
+					<attribute id="ID" type="FixedString" value="48742433-48ce-4ac2-9d31-3b71127d911a" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Status_Radiate_Demonic2" />
+					<attribute id="Radius" type="float" value="3.464102" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Status_Radiate_Demonic2.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403208705" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d3e28de7-619b-20c4-a1eb-281dafcf3605" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a6770c1c-e50a-cde1-78a1-771c1ab9aab0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="783ce98e-8afb-54ac-6c6e-4c985d5f011b" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b7bbdf95-5516-e0ae-bdaf-a1c08a3fc8a6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="3baa4db5-49da-1eda-78d9-410798f2a043" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ed10b833-0bff-b502-eab9-98586abaf81e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="07970c82-d3ac-7b25-2293-608458360668" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="09507f13-8b48-c991-2f7e-46e2958f3344" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cb37b9cc-6780-4a9b-84e2-31a7445ace1a" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="4e3c9c4b-38f8-478f-b15f-3f080e664450" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="Status_Necro_Demonic" />
+					<attribute id="ID" type="FixedString" value="1cd98fcc-cba3-4e90-865f-a86d7aaed96c" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Status_Necro_Demonic" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Status_Necro_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209005" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="14c74af1-4bdd-03a3-ec5a-bb1e3ce53167" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="835d0174-b7fd-9b31-5f0d-f9619c948176" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 7 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -3 -5" />
+					<attribute id="Center" type="fvec3" value="0 2 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="PaladinTargetDemon" />
+					<attribute id="ID" type="FixedString" value="3ec201a5-8055-4cd6-b6b6-0c65270b2059" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="PaladinTargetDemon" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/PaladinTargetDemon.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725663" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="51cff99a-4f4d-c974-dd40-34f5b2ac28d3" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="43c7417a-d000-f06d-acc0-a48824ac7735" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="01fd908b-b008-0865-8aae-37d5d664e3f9" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="27ca1cd9-73d0-0901-372b-478bd1f7e7e3" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 3 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -3 -3" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="7" />
+					<attribute id="EffectName" type="FixedString" value="VFX_Spells_Cast_Monk_TargetAoE_GongOfTheSummit_Impact_Textkey_01" />
+					<attribute id="ID" type="FixedString" value="5900b952-eca3-3dcf-bcef-9af01c31f90c" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="VFX_Spells_Cast_Monk_TargetAoE_GongOfTheSummit_Impact_Textkey_01" />
+					<attribute id="Radius" type="float" value="5.196152" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Effects/Effects_Banks/Spells/Cast/Monk/VFX_Spells_Cast_Monk_TargetAoE_GongOfTheSummit_Impact_Textkey_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725558" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="652b2b58-e949-e6f8-f4b8-db172bf76e4f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6ed94110-8dfb-aa61-0a9b-a1f246060a7e" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6ed9bfc0-ce2f-e27c-803d-9cd217ec7dae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="31ee2b64-af92-4e6c-edb2-ce5d4bcf68b0" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1 1.5 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -0.5 -1" />
+					<attribute id="Center" type="fvec3" value="0 0.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="DemonicEye_01" />
+					<attribute id="ID" type="FixedString" value="0628be73-3fd4-4016-953a-26dd112a2ccb" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="DemonicEye_01" />
+					<attribute id="Radius" type="float" value="1" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/DemonicEye_01.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="56fc2011-de44-3245-b2b4-104e8877ec9c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a20ebe9-3da0-be5b-bac6-c1cecc80b11d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="121f3ca2-8e12-0f8c-9f02-f177c4515b63" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1 1.5 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -0.5 -1" />
+					<attribute id="Center" type="fvec3" value="0 0.5 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="1" />
+					<attribute id="EffectName" type="FixedString" value="DemonicEye_02" />
+					<attribute id="ID" type="FixedString" value="461c6ac5-3700-4491-995e-bf6a2babf248" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="DemonicEye_02" />
+					<attribute id="Radius" type="float" value="1" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/DemonicEye_02.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a881fe94-c99d-c80a-1269-083ef64f1c92" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1a20ebe9-3da0-be5b-bac6-c1cecc80b11d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="121f3ca2-8e12-0f8c-9f02-f177c4515b63" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="3 5 3" />
+					<attribute id="BoundsMin" type="fvec3" value="-3 -1 -3" />
+					<attribute id="Center" type="fvec3" value="0 2 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="6.999999" />
+					<attribute id="EffectName" type="FixedString" value="Body_Demonic_Wings" />
+					<attribute id="ID" type="FixedString" value="bd7a71bb-b833-461e-911d-118286377b98" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Body_Demonic_Wings" />
+					<attribute id="Radius" type="float" value="3" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Body_Demonic_Wings.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d76259d5-8693-a0c0-9377-d04d5222677c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="54d78b10-5ede-fa84-a8e4-e46076ee3640" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5333441b-5f77-22f7-f695-e13e6274c686" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 6 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -4 -5" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="2.5" />
+					<attribute id="EffectName" type="FixedString" value="ShieldStatusBuffOne" />
+					<attribute id="ID" type="FixedString" value="004e0049-052d-45ec-9f7d-aa19382e187e" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="ShieldStatusBuffOne" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/ShieldStatusBuffOne.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="d25f1176-f8cf-0750-42dc-49ce71f6e9ce" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="22980887-b92d-c235-8ba2-c7133df20bf6" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="b4c92036-3733-5b15-f86d-1a02855d0144" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="91bcdda5-afef-22b0-894c-1c2ead59f2d5" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="30e17083-9341-c17f-1993-4301d74f2152" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="9c15f129-f070-7a2b-e66d-d728aaea2383" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="5 6 5" />
+					<attribute id="BoundsMin" type="fvec3" value="-5 -4 -5" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="ShieldStatusBuffTwo" />
+					<attribute id="ID" type="FixedString" value="1b38450f-5ad3-4ca6-ac17-433a55688750" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="ShieldStatusBuffTwo" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/ShieldStatusBuffTwo.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="332f5caf-d6a6-b343-3a24-acbd3a0b5b30" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0c5ef267-581e-3d1e-6645-20626faa15ab" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="65b01850-98c6-0135-6e7c-78b362b0cf25" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="fb21ca3c-3b37-b5b8-86cd-c7feaead109d" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="707add78-20c6-ec43-477d-bf2d0fa51d67" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7bdafec7-27dd-539a-e30b-3a3fb9311196" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cf1c25e2-c57d-9362-a8b7-8b2c020a33bf" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5648d41b-5f6b-2e1c-8e1f-9e69e8094264" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="353e9c91-8f9c-b243-7039-0b262609ccef" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="ea1b6f61-7c1e-e0b8-7987-f7528fd27ecc" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="1f1e674c-ccf6-1063-8e53-a1bfc98d5939" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3.499909" />
+					<attribute id="EffectName" type="FixedString" value="Zone_Mag_Cast" />
+					<attribute id="ID" type="FixedString" value="271cd6d4-b60d-4ab2-a1ef-a85cd0184a1e" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Zone_Mag_Cast" />
+					<attribute id="Radius" type="float" value="6" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Zone_Mag_Cast.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="5874a588-b4ad-4a78-a823-8f5f739555be" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0304ee2e-6c7b-498b-2e84-02ce96eec15c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d9e3d13-d153-5ecc-5248-0a46c058e001" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7d365265-8eef-0644-e7a6-e194848400ff" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="7f529093-83ec-ea78-2d7d-71bb5fa5d73c" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="0310610e-2ae1-9b79-fe1b-4de4e2c57cb0" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="793490be-fa90-de04-371c-f2a2782dfdae" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="6d1997f3-03c7-a813-7efa-7f7e1edac10b" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="6 6 6" />
+					<attribute id="BoundsMin" type="fvec3" value="-6 -6 -6" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="3" />
+					<attribute id="EffectName" type="FixedString" value="Zone_Mag_Wave" />
+					<attribute id="ID" type="FixedString" value="8c6107d3-d6e9-4ab4-9e77-4fbd72dcc1a5" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="Zone_Mag_Wave" />
+					<attribute id="Radius" type="float" value="10.392304" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Zone_Mag_Wave.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725667" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="c2b240cd-5af3-128c-80ea-faf0a8d97b5f" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a0e18bec-9cdc-6f06-4104-81fa9d348a85" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a85e4a5a-876d-32c0-fb74-b9684cf3dc2a" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="2 3 2" />
+					<attribute id="BoundsMin" type="fvec3" value="-2 -1 -2" />
+					<attribute id="Center" type="fvec3" value="0 1 0" />
+					<attribute id="CullingDistance" type="float" value="0" />
+					<attribute id="Duration" type="float" value="2" />
+					<attribute id="EffectName" type="FixedString" value="Li_Demonic" />
+					<attribute id="ID" type="FixedString" value="d868b02e-b431-4c83-86e4-48fd899e48c5" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="2" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="Li_Demonic" />
+					<attribute id="Radius" type="float" value="2" />
+					<attribute id="SourceFile" type="LSString" value="Public/BloodyAllegianceV2/Assets/Effects/Effects_Banks/Status/Li_Demonic.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725656" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="cb5c59bb-52cd-0cb9-8e92-a3b7fd952cb8" />
+								</node>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="06341da6-60ae-3ca0-2986-13a2dcd73f73" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

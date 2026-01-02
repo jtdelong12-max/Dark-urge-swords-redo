@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="4" build="602" lslib_meta="v1,bswap_guids" />
+	<region id="root">
+		<node id="root">
+			<children>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_ShieldDesc1_Test" />
+					<attribute id="U1" type="float" value="0" />
+					<attribute id="U2" type="float" value="0.1" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_ShieldAura" />
+					<attribute id="U1" type="float" value="0.1" />
+					<attribute id="U2" type="float" value="0.2" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Desc2_Weapon" />
+					<attribute id="U1" type="float" value="0.2" />
+					<attribute id="U2" type="float" value="0.3" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Desc1_Weapon" />
+					<attribute id="U1" type="float" value="0.3" />
+					<attribute id="U2" type="float" value="0.4" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Souls_Test" />
+					<attribute id="U1" type="float" value="0.4" />
+					<attribute id="U2" type="float" value="0.5" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Jump" />
+					<attribute id="U1" type="float" value="0.5" />
+					<attribute id="U2" type="float" value="0.6" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Gale_Boom" />
+					<attribute id="U1" type="float" value="0.6" />
+					<attribute id="U2" type="float" value="0.7" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Duo_Status" />
+					<attribute id="U1" type="float" value="0.7" />
+					<attribute id="U2" type="float" value="0.8" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Awakening" />
+					<attribute id="U1" type="float" value="0.8" />
+					<attribute id="U2" type="float" value="0.9" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Teleport" />
+					<attribute id="U1" type="float" value="0.9" />
+					<attribute id="U2" type="float" value="1" />
+					<attribute id="V1" type="float" value="0" />
+					<attribute id="V2" type="float" value="0.25" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_MainMelee" />
+					<attribute id="U1" type="float" value="0" />
+					<attribute id="U2" type="float" value="0.1" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_OffMelee" />
+					<attribute id="U1" type="float" value="0.1" />
+					<attribute id="U2" type="float" value="0.2" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Zone" />
+					<attribute id="U1" type="float" value="0.2" />
+					<attribute id="U2" type="float" value="0.3" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Heart" />
+					<attribute id="U1" type="float" value="0.3" />
+					<attribute id="U2" type="float" value="0.4" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_ZoneMag_Red" />
+					<attribute id="U1" type="float" value="0.4" />
+					<attribute id="U2" type="float" value="0.5" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_MagMain_Red" />
+					<attribute id="U1" type="float" value="0.5" />
+					<attribute id="U2" type="float" value="0.6" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_MagOff_Red" />
+					<attribute id="U1" type="float" value="0.6" />
+					<attribute id="U2" type="float" value="0.7" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_ZoneMag_Purple" />
+					<attribute id="U1" type="float" value="0.7" />
+					<attribute id="U2" type="float" value="0.8" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_MagMain_Purple" />
+					<attribute id="U1" type="float" value="0.8" />
+					<attribute id="U2" type="float" value="0.9" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_MagOff_Purple" />
+					<attribute id="U1" type="float" value="0.9" />
+					<attribute id="U2" type="float" value="1" />
+					<attribute id="V1" type="float" value="0.25" />
+					<attribute id="V2" type="float" value="0.5" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Oath_Shield" />
+					<attribute id="U1" type="float" value="0" />
+					<attribute id="U2" type="float" value="0.1" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Viconia" />
+					<attribute id="U1" type="float" value="0.1" />
+					<attribute id="U2" type="float" value="0.2" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Giant" />
+					<attribute id="U1" type="float" value="0.2" />
+					<attribute id="U2" type="float" value="0.3" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Rapier" />
+					<attribute id="U1" type="float" value="0.3" />
+					<attribute id="U2" type="float" value="0.4" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Big" />
+					<attribute id="U1" type="float" value="0.4" />
+					<attribute id="U2" type="float" value="0.5" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Aluve" />
+					<attribute id="U1" type="float" value="0.5" />
+					<attribute id="U2" type="float" value="0.6" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Silver" />
+					<attribute id="U1" type="float" value="0.6" />
+					<attribute id="U2" type="float" value="0.7" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Crusher" />
+					<attribute id="U1" type="float" value="0.7" />
+					<attribute id="U2" type="float" value="0.8" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="Demon_Round_Shield" />
+					<attribute id="U1" type="float" value="0.8" />
+					<attribute id="U2" type="float" value="0.9" />
+					<attribute id="V1" type="float" value="0.5" />
+					<attribute id="V2" type="float" value="0.75" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="SoulsDemonNumber" />
+					<attribute id="U1" type="float" value="0" />
+					<attribute id="U2" type="float" value="0.1" />
+					<attribute id="V1" type="float" value="0.75" />
+					<attribute id="V2" type="float" value="1" />
+				</node>
+				<node id="IconUV">
+					<attribute id="MapKey" type="FixedString" value="SoulsStatusD" />
+					<attribute id="U1" type="float" value="0.1" />
+					<attribute id="U2" type="float" value="0.2" />
+					<attribute id="V1" type="float" value="0.75" />
+					<attribute id="V2" type="float" value="1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

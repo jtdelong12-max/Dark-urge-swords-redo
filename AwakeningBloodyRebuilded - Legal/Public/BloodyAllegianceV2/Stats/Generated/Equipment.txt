@@ -1,0 +1,44 @@
+
+
+
+new equipment "Test_Demonic_Swords"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Big"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Big"
+
+new equipment "Test_Demonic_Knight"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Silver_OneHand"
+add equipmentgroup
+add equipment entry "Demonic_DeathKnight_Shield"
+
+new equipment "Demonic_Magic_Knight"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Silver_OneHand_Magic"
+add equipmentgroup
+add equipment entry "Demonic_DeathKnight_Shield_Summon"
+
+new equipment "Cambion_Magic_Knight"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Giant_Onehand_Mage"
+add equipmentgroup
+add equipment entry "Demonic_DeathKnight_Shield_Summon"
+
+new equipment "Cambion_Dualist"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Giant_Onehand"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Giant_Onehand"
+
+new equipment "Demonic_Dualist"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Big_Sheatable"
+add equipmentgroup
+add equipment entry "BloodyAllegiance_Big_Sheatable"

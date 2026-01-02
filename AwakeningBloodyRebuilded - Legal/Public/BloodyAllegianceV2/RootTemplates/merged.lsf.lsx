@@ -1,0 +1,3294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="6" build="5" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="264a9bf6-ac12-4e78-98cc-5047d3a20e8e" />
+					<attribute id="Name" type="LSString" value="DemonicOathShield" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5b8fe99f-56d9-48a8-a9d0-8290ebae6461" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="Icon" type="FixedString" value="Demon_Oath_Shield" />
+					<attribute id="Stats" type="FixedString" value="DemonicOathShield" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="d55017b4-cd57-4a09-be95-4f06901838d3" />
+					<children>
+						<node id="GameMaster" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_test" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="Icon" type="FixedString" value="Demon_Round_Shield" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e9bfed3d-35d6-4504-8e46-303097597153" />
+					<attribute id="Name" type="LSString" value="Demonic_Round_Shi" />
+					<attribute id="ParentTemplateId" type="FixedString" value="cb2d6c27-ec29-4555-adf2-41e8c1952439" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Stats" type="FixedString" value="Demonic_Round_Shi" />
+					<children>
+						<node id="GameMaster" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DemonicShield_Passive_AURA_222" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Longsword_GuardianOfFaith_Evil" />
+					<attribute id="MapKey" type="FixedString" value="19f06b02-02d2-4dcd-898c-a2f716e765d4" />
+					<attribute id="Name" type="LSString" value="RADIANT_STAR_RAZOR" />
+					<attribute id="ParentTemplateId" type="FixedString" value="dd0e60fd-a334-411b-97cf-fa6a015c578b" />
+					<attribute id="Stats" type="FixedString" value="RADIANT_STAR_RAZOR" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f60da3cd-546c-4597-9b0c-7a561531ac06" />
+					<attribute id="Name" type="LSString" value="Demonic_DeathKnight_Shield" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5b8fe99f-56d9-48a8-a9d0-8290ebae6461" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="Icon" type="FixedString" value="Demon_Oath_Shield" />
+					<attribute id="Stats" type="FixedString" value="Demonic_DeathKnight_Shield" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<children>
+						<node id="GameMaster" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DemonicShield_Passive_AURA_222" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="edd69a3d-86a6-4114-b33f-2b6e56c128a3" />
+					<attribute id="Name" type="LSString" value="Demonic_DeathKnight_Shield_Summon" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5b8fe99f-56d9-48a8-a9d0-8290ebae6461" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="Icon" type="FixedString" value="Demon_Oath_Shield" />
+					<attribute id="Stats" type="FixedString" value="Demonic_DeathKnight_Shield_Summon" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<children>
+						<node id="GameMaster" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DemonicShield_Passive_AURA_222" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="Icon" type="FixedString" value="Demon_Viconia" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="06b901f9-ec79-4e66-8ce2-8078113a44ee" />
+					<attribute id="Name" type="LSString" value="Demonic_Viconia_Shield" />
+					<attribute id="ParentTemplateId" type="FixedString" value="badf2418-01ac-410d-931e-72b1dac071c7" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="615cd2c2-dc34-5e02-f5c5-8741722d7c81" />
+					<attribute id="Stats" type="FixedString" value="Demonic_Viconia_Shield" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="dc37c116-c43b-e9fd-4f52-b601ccff8766" />
+					<children>
+						<node id="GameMaster" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DemonicShield_Passive_AURA_222" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f29fac02-b007-4568-98fb-b04aaedee77a" />
+					<attribute id="Name" type="LSString" value="Demonic_Ketheric_Shield" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="004ab562-5cd4-4f1f-8aa5-497e7e2c5f4f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="Stats" type="FixedString" value="Demonic_Ketheric_Shield" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<children>
+						<node id="GameMaster" />
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DemonicShield_Passive_AURA_222" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="5d4c7c48-8531-494f-8fc3-936122d8a6fa" />
+					<attribute id="Name" type="LSString" value="Demonic_Myrkyl_Shield" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f44c9c6f-bc71-42ad-9cad-2dae306e750e" />
+					<attribute id="VisualTemplate" type="FixedString" value="b24936d3-2b8d-ba88-2756-e1076387d670" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="5805c088-640d-beff-65f2-b1f834249963" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16aa2ef0g31cfg4884gb75bg8c058c6aa835" version="1" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Shield_Myrkul_A" />
+					<attribute id="Stats" type="FixedString" value="Demonic_Myrkyl_Shield" />
+					<attribute id="EquipmentTypeID" type="guid" value="fac6dd3a-6ceb-40fc-91e8-6f39c33cd98a" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="Demonic_Shield_Status_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="DemonicShield_Passive_AURA_222" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1968525 -0.0208923 -0.19347" />
+									<attribute id="Max" type="fvec3" value="0.1968525 0.08807 0.187501" />
+									<attribute id="Radius" type="float" value="0.1422545" />
+									<attribute id="Height" type="float" value="0.218963" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.393705 -0.0208923 -0.38694" />
+									<attribute id="Max" type="fvec3" value="0.393705 0.08807 0.375002" />
+									<attribute id="Radius" type="float" value="0.284509" />
+									<attribute id="Height" type="float" value="0.218963" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.393705 -0.0208923 -0.38694" />
+									<attribute id="Max" type="fvec3" value="0.393705 0.08807 0.375002" />
+									<attribute id="Radius" type="float" value="0.284509" />
+									<attribute id="Height" type="float" value="0.218963" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9930b389gd16fg40a9g9587g49b1bef43ab6" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="d2b6fcf7-8589-4e2f-aab5-e15041cf9262" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Demon_Aluve" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="508af861-43d7-4a1b-9200-5667c2fce276" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Aluve" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3fc2ba50-3070-4caa-abe8-3bf885969bde" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="cd4a8a69-8f43-bfe1-5998-5831c52ffd19" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Aluve" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="d801f19a-3a89-693a-fc9b-da2a0bfe9ad2" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8ed8a03dga912g48bfgb872g1ca47c6b4764" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="d2b6fcf7-8589-4e2f-aab5-e15041cf9262" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Demon_Big" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="74a4e2cc-45d7-4beb-9eb3-356db565c547" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Big" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81a83529-5bb6-4c72-b1af-6fc8f45c5706" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ec34d6f-a904-0a28-33e7-ad5c8cb4fa5a" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Big" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="421b7547-1981-8a88-e706-8bb4e956c568" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9930b389gd16fg40a9g9587g49b1bef43ab6" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="d2b6fcf7-8589-4e2f-aab5-e15041cf9262" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Demon_Big" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="626387b6-f66e-4038-89e9-15badcbc16e6" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Big_Sheatable" />
+					<attribute id="ParentTemplateId" type="FixedString" value="81a83529-5bb6-4c72-b1af-6fc8f45c5706" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="6ec34d6f-a904-0a28-33e7-ad5c8cb4fa5a" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Big_Sheatable" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="421b7547-1981-8a88-e706-8bb4e956c568" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9930b389gd16fg40a9g9587g49b1bef43ab6" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="329e42e1-6922-459c-a23f-90a6cb9bff0c" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Demon_Giant" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="6b7a3758-1d54-42b0-b7d7-114d5da6969c" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Giant_Onehand" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2741505a-9d0b-4c9e-adcd-2e6339491e95" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1b42ed05-5c92-3c8f-fcdf-b203fdc45769" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Giant_Onehand" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="441ea20b-53f4-005d-bdcb-6e195817d545" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9930b389gd16fg40a9g9587g49b1bef43ab6" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="329e42e1-6922-459c-a23f-90a6cb9bff0c" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Demon_Giant" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="d52d9ae7-7a6b-418d-9c07-a3bfcdf486c3" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Giant_Onehand_Mage" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2741505a-9d0b-4c9e-adcd-2e6339491e95" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1b42ed05-5c92-3c8f-fcdf-b203fdc45769" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Giant_Onehand_Mage" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="441ea20b-53f4-005d-bdcb-6e195817d545" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ce6d0d75-ebf7-41f9-b68f-9f5d206789ac" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Giant_Twohand" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2741505a-9d0b-4c9e-adcd-2e6339491e95" />
+					<attribute id="VisualTemplate" type="FixedString" value="441ea20b-53f4-005d-bdcb-6e195817d545" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="1b42ed05-5c92-3c8f-fcdf-b203fdc45769" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hffdf6be4g9151g42abgae71gd02781ae114f" version="6" />
+					<attribute id="Icon" type="FixedString" value="Demon_Giant" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Giant_Twohand" />
+					<attribute id="Description" type="TranslatedString" handle="" version="3" />
+					<attribute id="EquipmentTypeID" type="guid" value="5748f883-fc54-4d17-83d6-ec94769c2247" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-69bc-f9659632c866" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hffdf6be4g9151g42abgae71gd02781ae114f" version="1" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Demon_Crusher" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="01ed1d34-abd4-4b1f-9c54-68332bb75fd4" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Crusher_TwoHand" />
+					<attribute id="ParentTemplateId" type="FixedString" value="d1082e88-b1e2-479d-913f-1413784d95a1" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="e2ba2c2b-5ec8-daf3-1e34-b2b583552b8d" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Crusher_TwoHand" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="b9790200-7f39-4c03-a86b-d452187c1add" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<attribute id="EquipmentTypeID" type="guid" value="5748f883-fc54-4d17-83d6-ec94769c2247" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9930b389gd16fg40a9g9587g49b1bef43ab6" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6fa25959-da30-4e70-812c-fc215f53cf97" />
+					<attribute id="Name" type="FixedString" value="BloodyAllegiance_Silver_OneHand" />
+					<attribute id="ParentTemplateId" type="FixedString" value="91d38c71-4614-463f-8b35-338e5b3bbf9f" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Silver_OneHand" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="EquipmentTypeID" type="guid" value="329e42e1-6922-459c-a23f-90a6cb9bff0c" />
+					<attribute id="Icon" type="FixedString" value="Demon_Silver" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h8ed8a03dga912g48bfgb872g1ca47c6b4764" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2d7d35ff-af7e-4c80-bb8d-3cb721c87a56" />
+					<attribute id="Name" type="FixedString" value="BloodyAllegiance_Silver_OneHand_NoSheat" />
+					<attribute id="ParentTemplateId" type="FixedString" value="91d38c71-4614-463f-8b35-338e5b3bbf9f" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Silver_OneHand_NoSheat" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="EquipmentTypeID" type="guid" value="329e42e1-6922-459c-a23f-90a6cb9bff0c" />
+					<attribute id="Icon" type="FixedString" value="Demon_Silver" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9930b389gd16fg40a9g9587g49b1bef43ab6" version="2" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="6889ac54-3768-42f7-8109-1778f0456c8c" />
+					<attribute id="Name" type="FixedString" value="BloodyAllegiance_Silver_OneHand_Magic" />
+					<attribute id="ParentTemplateId" type="FixedString" value="91d38c71-4614-463f-8b35-338e5b3bbf9f" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Silver_OneHand_Magic" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="EquipmentTypeID" type="guid" value="329e42e1-6922-459c-a23f-90a6cb9bff0c" />
+					<attribute id="Icon" type="FixedString" value="Demon_Silver" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h648593cfg91fag4b65g8bf1ge26777ee7e6b" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="4d500520-1818-4a5e-83b9-324957e22969" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Demon_Rapier" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="21449845-491a-497d-a147-d5cba679eabb" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Rapier" />
+					<attribute id="ParentTemplateId" type="FixedString" value="7061f489-4b13-4982-aa09-cf0ad961e75f" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="c8a89cc2-7213-40d6-f0a0-c0a9d7a26de1" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Rapier" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="a6770c1c-e50a-cde1-78a1-771c1ab9aab0" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Default" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Melee" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodStatusWeapon_Empty" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="BloodyAllegianceAura_Demonic" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="ha9abba2cgcb53g406bgaa7dg0ab12a61949e" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha9abba2cgcb53g406bgaa7dg0ab12a61949e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Tome_Cursed_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d01a44a7-912c-4e6e-bb4e-b78812656dd1" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_Chest" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_Chest" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="BloodyAllegiance_Chest_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_BOOK_GEN_Tome_Cursed_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2b5b50a8-39be-44a2-808b-a12512699b98" />
+					<attribute id="Name" type="LSString" value="BloodyAllegiance_ChestTesting" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="BloodyAllegiance_ChestTesting" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="BloodyAllegiance_ChestTesting_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_FX_01" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_DestrucWave_RAD" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_DestrucWave_RAD" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7a089cc7-46d6-441e-a145-10ab063f22a0" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_FX_01" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_DestrucWave_RAD" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_DestrucWave_RAD" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="203a7f30-96c5-49d3-b383-8b5bfd125df2" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="83d2757a-4045-4f0f-9d9a-b7d7bec095cf" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Call_Thunder_Blood" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Strike_Blood" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0f8a8eb0-b0da-4353-a3ed-7a0250cad5b0" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="a9f3161a-cb09-4a21-8a2e-a3ea8773aa7d" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Stomp_Blood_Cast" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Stomp_Root_Blood" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="81663e3f-6fbf-4670-a4e7-b0e0e1ea19df" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2287e4c0-1004-9ddd-3c60-c6b3173fed4e" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood_Text" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="dc93da93-0506-4b8a-bd77-2941d2431d14" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="bdf50f4b-d321-688e-5bfd-c0fe24dcc118" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beams_Necrotic_Apostle_FingerOfDeath_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Spells_Cast_Paladin_Target_DivineSmite_Impact_Texkey_01" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="89160e22-c0ad-493e-bcf8-6f64313d3850" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2287e4c0-1004-9ddd-3c60-c6b3173fed4e" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Paladin_Target_DivineSmite_Impact_Texkey_02" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Spells_Cast_Paladin_Target_DivineSmite_OathBreaker_Root_Texkey_01" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="2a060daa-37e1-4fe2-991e-cdf42c321fa3" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="e6b28e7b-b090-47a8-b9df-ef32bcee3e87" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beams_Debuff_Spectator_FearRay_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Beam_Target_Disintegrate_Impact_01" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="4e66e382-fff9-43e0-bbae-73f006d24776" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Paladin_Target_DivineSmite_OathBreaker_Root_Texkey_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Spells_Cast_Paladin_Target_DivineSmite_Impact_Texkey_01" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="cd2d943c-db25-4419-b7b7-7b17b58ab58d" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beams_Debuff_Spectator_FearRay_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Beam_Target_Disintegrate_Impact_01" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="03744779-08fc-4285-b28e-9e8729098a3d" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="01130bd6-8ce7-40af-b137-7a7bbe5504eb" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood_Text" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood_Text" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="a73ec67c-241e-4086-97e2-2daebf20a264" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Enemies_Ketheric_CommandTroops_Impact_ChestFX_Textkey_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Enemies_Ketheric_CommandTroops_Impact_ChestFX_Textkey_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2cfbab6a-6c83-4591-8a62-eb16fda13b3c" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Status_Contagion_SlimyDoom_ChestFX_ApplyEffect_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Status_Contagion_SlimyDoom_ChestFX_ApplyEffect_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="806e040e-28cb-4825-9ed8-c787bbb3a0e4" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_DragonSkeletaImpact_Demonic" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_MindSteal_Demonic" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="db2ef656-4371-4fbb-afc2-8970469b009f" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_DragonSkeletaImpact_Violet" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Call_Thunder_Violet" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="78a3396a-1aef-4f89-beab-e5516d27ee7d" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood_Text" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="04713f99-1ed2-47d7-97d6-4b799a3056c7" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_DestrucWave_RAD" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Strike_Blood" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ac7cd143-ec79-4b56-ae8e-8b6abe01cd3d" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_MindSteal_Demonic" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Cinematic_VampireSpawn_SpellCast_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="060e80d6-a779-418c-a11e-fa9afea59a96" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="VFX_FearRay_Demonic" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beam_Target_EPI_GaleGod_Disintegrate_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Beam_Target_EPI_GaleGod_Disintegrate_Impact_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="be46e6e6-d9d1-43e2-8b9f-a0eaf47aca53" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="VFX_RayOfEnfeeblement_Demonic" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="Disintegrate_Impact_Demon" />
+					<attribute id="GroundImpactFX" type="FixedString" value="FingerOfDeath_Impact_Demon" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="2e13717f-5f86-4538-81bd-d1810ea4dcd1" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="FingerOfDeath_Beam_Demon" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beam_Target_EPI_GaleGod_Disintegrate_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Beam_Target_EPI_GaleGod_Disintegrate_Impact_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="67a5e50b-6646-471b-ac22-70070ea5057d" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="13e8c047-0ce8-4a76-9a62-2316c9f57285" />
+					<attribute id="Name" type="LSString" value="BeamsLightning_Violet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_HeadFX" />
+					<attribute id="BeamFX" type="FixedString" value="BeamsLightning_Violet" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactFX" type="FixedString" value="FingerOfDeath_Impact_Demon" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2d09afef-dd88-4103-b8b7-12eabab1cd8b" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="100" />
+					<attribute id="Acceleration" type="float" value="50" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="BeamsLightning_Violet" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_HeadFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beam_Target_EPI_GaleGod_Disintegrate_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="FingerOfDeath_Impact_Demon" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4d5d43f2-88db-47a7-b54a-26fa44a9b023" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="f8a40cc0-5687-40a7-ad36-f57252e402b5" />
+					<attribute id="Name" type="LSString" value="BeamsLightning_Violet" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_HeadFX" />
+					<attribute id="BeamFX" type="FixedString" value="BeamsLightning_Violet" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beam_Target_EPI_GaleGod_Disintegrate_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="FingerOfDeath_Impact_Demon" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2d09afef-dd88-4103-b8b7-12eabab1cd8b" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="100" />
+					<attribute id="Acceleration" type="float" value="50" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="27485340-94ec-4b6e-ba43-abfbda634ddf" />
+					<attribute id="Name" type="LSString" value="FingerOfDeath_Beam_Demon" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="BeamFX" type="FixedString" value="FingerOfDeath_Beam_Demon" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Beam_Target_EPI_GaleGod_Disintegrate_Impact_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="FingerOfDeath_Impact_Demon" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2d09afef-dd88-4103-b8b7-12eabab1cd8b" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="100" />
+					<attribute id="Acceleration" type="float" value="50" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="9f9ddedc-8e9d-46bd-bc97-a719385fc7be" />
+					<attribute id="Name" type="LSString" value="VFX_FearRay_Demonic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="BeamFX" type="FixedString" value="VFX_FearRay_Demonic" />
+					<attribute id="ImpactFX" type="FixedString" value="" />
+					<attribute id="GroundImpactFX" type="FixedString" value="" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2d09afef-dd88-4103-b8b7-12eabab1cd8b" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="100" />
+					<attribute id="Acceleration" type="float" value="50" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="8e491aae-1ad2-498d-82e9-168f92ddf018" />
+					<attribute id="Name" type="LSString" value="VFX_RayOfEnfeeblement_Demonic" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="BeamFX" type="FixedString" value="VFX_RayOfEnfeeblement_Demonic" />
+					<attribute id="ImpactFX" type="FixedString" value="" />
+					<attribute id="GroundImpactFX" type="FixedString" value="" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2d09afef-dd88-4103-b8b7-12eabab1cd8b" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="ShiftBMin_Bezier4" type="float" value="0.25" />
+					<attribute id="ShiftBMax_Bezier4" type="float" value="0.25" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="InitialSpeed" type="float" value="100" />
+					<attribute id="Acceleration" type="float" value="50" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="GroundImpactFX" type="FixedString" value="Disintegrate_Impact_Demon" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="74e40359-9156-4fd6-b6a6-9bbc5ed21b83" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Spells_Cast_Paladin_Target_DivineSmite_Impact_Texkey_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Beams_Debuff_Spectator_FearRay_Impact_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="66976c1e-253f-4102-b6ee-17fdbe1d1666" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Enemies_Ketheric_CommandTroops_Impact_ChestFX_Textkey_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Status_LOW_ORIN_DEATHBRINGER_COUNTER_4_ChestFX_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ac6650da-6a55-4127-a121-8e92de62e08f" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="Disintegrate_Impact_Demon" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Spells_Cast_Paladin_Target_DivineSmite_OathBreaker_Root_Texkey_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="602fc804-e149-4e94-9051-9d7d9a1b200f" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Cinematic_VampireSpawn_SpellCast_01" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Cinematic_VampireSpawn_SpellCast_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="7f406040-c73a-4c6e-ab48-ac52f5c96ae1" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Acceleration" type="float" value="0.1" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_CastFX" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="FadeIn" type="bool" value="True" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="GroupID" type="uint32" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Stomp_Blood_Cast" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Stomp_Root_Blood" />
+					<attribute id="InitialSpeed" type="float" value="12.5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="ImpactFXSize" type="float" value="6" />
+					<attribute id="MapKey" type="FixedString" value="5bbff7c6-d221-46cc-a23f-0b6d5db82f74" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="OffsetMin_Bezier3" type="fvec2" value="0 2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PathMaxArcDist" type="float" value="25" />
+					<attribute id="PathMinArcDist" type="float" value="10" />
+					<attribute id="PathRadius" type="float" value="2" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="2287e4c0-1004-9ddd-3c60-c6b3173fed4e" />
+					<attribute id="ProjectilePath" type="uint8" value="3" />
+					<attribute id="RotateImpact" type="bool" value="False" />
+					<attribute id="ShiftMin_Bezier3" type="float" value="0.5" />
+					<attribute id="Speed" type="float" value="12.5" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<children>
+						<node id="Bounds" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_MindSteal_Demonic" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Cinematic_VampireSpawn_SpellCast_01" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="13093b83-bdb0-4689-88c7-18489c2da75c" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Call_Thunder_Blood" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Strike_Blood" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="93c5adfb-d690-4212-bb4d-f443b6af400b" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_Call_Thunder_Blood" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Strike_Blood" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="09956266-13f2-4e1a-bc3e-6481121a51b6" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_MindSteal_Demonic" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_DestrucWave_RAD" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c5a1f748-5a98-41a6-acdd-8f829a556e50" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_DragonSkeletaImpact_Violet" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_Strike_Blood" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c03c2ae7-a149-4b1c-b9fe-f2f2142a2b31" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="BeamFX" type="FixedString" value="" />
+					<attribute id="Acceleration" type="float" value="120" />
+					<attribute id="CameraOffset" type="fvec3" value="0 0 0" />
+					<attribute id="CastBone" type="FixedString" value="Dummy_R_HandFX" />
+					<attribute id="CastShadow" type="bool" value="False" />
+					<attribute id="DetachBeam" type="bool" value="True" />
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="HasGameplayValue" type="bool" value="False" />
+					<attribute id="ImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood" />
+					<attribute id="GroundImpactFX" type="FixedString" value="VFX_CircleOfDeath_Position_Blood_Text" />
+					<attribute id="InitialSpeed" type="float" value="180" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="ddec2984-9973-4a96-9d44-fb40f2466396" />
+					<attribute id="Name" type="LSString" value="" />
+					<attribute id="ParentTemplateId" type="FixedString" value="" />
+					<attribute id="PhysicsOpenTemplate" type="FixedString" value="" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="" />
+					<attribute id="LifeTime" type="float" value="20" />
+					<attribute id="PreviewPathImpactFX" type="FixedString" value="VFX_UI_DestinationBeam_Projectile_01" />
+					<attribute id="PreviewPathMaterial" type="FixedString" value="312a1494-a0e2-c215-cf51-bda58a6b2341" />
+					<attribute id="ImpactSoundResourceID" type="FixedString" value="" />
+					<attribute id="Speed" type="float" value="180" />
+					<attribute id="TrajectoryType" type="uint8" value="0" />
+					<attribute id="Type" type="FixedString" value="projectile" />
+					<attribute id="VelocityMode" type="uint8" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115196665790665" />
+					<children>
+						<node id="Bounds" />
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="26b938e5-2910-4d20-b583-1b619178e42c" />
+					<attribute id="Name" type="LSString" value="Cambion_Dualist" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="db4e657f-13d4-45a9-871e-bc55e26f1a2a" />
+					<attribute id="Title" type="TranslatedString" handle="h4a227d98g2b3dg4232gba03g9d09b9b4aea1" version="1" />
+					<attribute id="Stats" type="FixedString" value="Cambion_Dual" />
+					<attribute id="Scale" type="float" value="1.1" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="Equipment" type="FixedString" value="Cambion_Dualist" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h475d958ag2266g4f12g8ccagc26dc67d40bb" version="1" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Mephit" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_Fly_Spell" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Cambion_Dual" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="d6b4ec32-7b33-494a-933a-628b77f9f557" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Random" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="4bdece7f-4e2d-4440-9318-10d023d8053e" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2570cc53-fbca-458b-9e76-001d2311ace7" />
+					<attribute id="Name" type="LSString" value="Cambion_Magic_Knight" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="db4e657f-13d4-45a9-871e-bc55e26f1a2a" />
+					<attribute id="Title" type="TranslatedString" handle="h5130dd5fg8768g4a21g8630g7e6db364d7ec" version="1" />
+					<attribute id="Stats" type="FixedString" value="Cambion_Knight" />
+					<attribute id="Scale" type="float" value="1" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="Equipment" type="FixedString" value="Cambion_Magic_Knight" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h80400137g7e48g4301gbf01g0fc4a6a3da43" version="1" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_Jump_Mephit" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_Fly_Spell" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Cambion_Mage" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="c679ce59-614f-4a88-ad73-581c7aebcd02" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Random" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="4bdece7f-4e2d-4440-9318-10d023d8053e" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="82ec054a-8c33-4eec-8ddb-b7f5955df1d0" />
+					<attribute id="Name" type="LSString" value="Demonic_Dualist" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="db4e657f-13d4-45a9-871e-bc55e26f1a2a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="56c64ae2-045d-8d53-a832-ccdbdb73bfb0" />
+					<attribute id="Icon" type="FixedString" value="a273044c-f61b-3927-110f-7da392df7f38-EQP_DeathKnight_Weak_(Icon_Human_Male)" />
+					<attribute id="Title" type="TranslatedString" handle="h4a227d98g2b3dg4232gba03g9d09b9b4aea1" version="1" />
+					<attribute id="Race" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5" />
+					<attribute id="Stats" type="FixedString" value="DeathKnight_Sarevok_Dual" />
+					<attribute id="Scale" type="float" value="1.1" />
+					<attribute id="LevelOverride" type="int32" value="12" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="Equipment" type="FixedString" value="Demonic_Dualist" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h475d958ag2266g4f12g8ccagc26dc67d40bb" version="1" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1.5" />
+									<attribute id="Skill" type="FixedString" value="Projectile_HellfireOrb_DeathKnight" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="60" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Dual" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="96e3ba23-3899-4cef-b47e-7e6e68bcd3d6" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Random" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="4bdece7f-4e2d-4440-9318-10d023d8053e" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b445585f-e982-4f5f-ad24-5e9622cc6778" />
+					<attribute id="Name" type="LSString" value="Demonic_Magic_Knight" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="db4e657f-13d4-45a9-871e-bc55e26f1a2a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="56c64ae2-045d-8d53-a832-ccdbdb73bfb0" />
+					<attribute id="Icon" type="FixedString" value="a273044c-f61b-3927-110f-7da392df7f38-EQP_DeathKnight_Weak_(Icon_Human_Male)" />
+					<attribute id="Title" type="TranslatedString" handle="h5130dd5fg8768g4a21g8630g7e6db364d7ec" version="1" />
+					<attribute id="Stats" type="FixedString" value="DeathKnight_Sarevok_Mage" />
+					<attribute id="Race" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5" />
+					<attribute id="LevelOverride" type="int32" value="11" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="Equipment" type="FixedString" value="Demonic_Magic_Knight" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h80400137g7e48g4301gbf01g0fc4a6a3da43" version="1" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1.5" />
+									<attribute id="Skill" type="FixedString" value="Projectile_HellfireOrb_DeathKnight" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="60" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Mage" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="d1d609bd-ac86-4c39-b416-cb45e9d8fa4c" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Random" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="4bdece7f-4e2d-4440-9318-10d023d8053e" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="69fe0f23-5f11-4031-96fc-06f1ed6bdaf2" />
+					<attribute id="Name" type="LSString" value="Demonic_Dualist" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="db4e657f-13d4-45a9-871e-bc55e26f1a2a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="39c40e2e-3596-497e-e146-d998db4ceba0" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Skeleton_Hero" />
+					<attribute id="Icon" type="FixedString" value="39c40e2e-3596-497e-e146-d998db4ceba0-EQP_Greatsword_HalfPlate_(Icon_Skeleton_Hero)" />
+					<attribute id="Title" type="TranslatedString" handle="h4a227d98g2b3dg4232gba03g9d09b9b4aea1" version="1" />
+					<attribute id="Race" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5" />
+					<attribute id="Stats" type="FixedString" value="DeathShepherd_Dual" />
+					<attribute id="Scale" type="float" value="1.1" />
+					<attribute id="LevelOverride" type="int32" value="10" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="Equipment" type="FixedString" value="Demonic_Dualist" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h475d958ag2266g4f12g8ccagc26dc67d40bb" version="1" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_RiseUndead_DeathShepherd" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="ExcludeInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-a05a-f9f93e1a912c" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_ClawsOfTheGrave_Necromite" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_RiseUndead_DeathShepherd_Hardcore" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="OnlyInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-a05a-f9f93e1a912c" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="LOW_RISENSKELETON_MYRKULVEIL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="LOW_RISENSKELETON_UNDEAD_PRESENCE" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Dual_Skeleton" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="95a44def-dd2d-4f02-823f-fcde1edb0024" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Random" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="4bdece7f-4e2d-4440-9318-10d023d8053e" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="ac9c2533-c27a-4ba8-8a0a-1675c582a444" />
+					<attribute id="Name" type="LSString" value="Demonic_Magic_Knight" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="db4e657f-13d4-45a9-871e-bc55e26f1a2a" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="39c40e2e-3596-497e-e146-d998db4ceba0" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Skeleton_Hero" />
+					<attribute id="Icon" type="FixedString" value="39c40e2e-3596-497e-e146-d998db4ceba0-EQP_Greatsword_HalfPlate_(Icon_Skeleton_Hero)" />
+					<attribute id="Title" type="TranslatedString" handle="h5130dd5fg8768g4a21g8630g7e6db364d7ec" version="1" />
+					<attribute id="Race" type="guid" value="02e5c59e-80e7-4176-a289-1d08699583f5" />
+					<attribute id="Stats" type="FixedString" value="DeathShepherd_Mage" />
+					<attribute id="Scale" type="float" value="1.2" />
+					<attribute id="LevelOverride" type="int32" value="9" />
+					<attribute id="Hostile" type="bool" value="True" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="IsEquipmentLootable" type="bool" value="False" />
+					<attribute id="Equipment" type="FixedString" value="Demonic_Magic_Knight" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h80400137g7e48g4301gbf01g0fc4a6a3da43" version="1" />
+					<children>
+						<node id="SkillList">
+							<children>
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_RiseUndead_DeathShepherd_Hardcore" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="OnlyInNPCLoadout">
+											<attribute id="Object" type="guid" value="db8515f8-3741-4242-a05a-f9f93e1a912c" />
+										</node>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="LOW_RISENSKELETON_MYRKULVEIL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="LOW_RISENSKELETON_UNDEAD_PRESENCE" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Mage" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="d1d609bd-ac86-4c39-b416-cb45e9d8fa4c" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="ItemName" type="LSString" value="Loot_Demon_Random" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<attribute id="TemplateID" type="FixedString" value="4bdece7f-4e2d-4440-9318-10d023d8053e" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="CasualExplorer" type="bool" value="True" />
+									<attribute id="Classic" type="bool" value="True" />
+									<attribute id="TacticianHardcore" type="bool" value="True" />
+									<attribute id="HonorHardcore" type="bool" value="True" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint8" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="HasNoPhysicalArmor" type="bool" value="False" />
+											<attribute id="HasNoMagicalArmor" type="bool" value="False" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Dungeon_SharTemple_Gem_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d1d609bd-ac86-4c39-b416-cb45e9d8fa4c" />
+					<attribute id="Name" type="LSString" value="Loot_Demon_Mage" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="Loot_Demon_Mage" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Loot_Demon_Mage_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_HoH_Infernal_Marble_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4bdece7f-4e2d-4440-9318-10d023d8053e" />
+					<attribute id="Name" type="LSString" value="Loot_Demon_Random" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="Loot_Demon_Random" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Loot_Demon_Random_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GTY_Control_Panel_Gem_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="96e3ba23-3899-4cef-b47e-7e6e68bcd3d6" />
+					<attribute id="Name" type="LSString" value="Loot_Demon_Dual" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="Loot_Demon_Dual" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Loot_Demon_Dual_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GTY_Control_Panel_Gem_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="95a44def-dd2d-4f02-823f-fcde1edb0024" />
+					<attribute id="Name" type="LSString" value="Loot_Demon_Dual_Skeleton" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="Loot_Demon_Dual_Skeleton" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Loot_Demon_Dual_Skeleton_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GTY_Control_Panel_Gem_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="d6b4ec32-7b33-494a-933a-628b77f9f557" />
+					<attribute id="Name" type="LSString" value="Loot_Cambion_Dual" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="Loot_Cambion_Dual" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Loot_Cambion_Dual_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb488ab82g849fg4de9g929agb82e75a4ff0c" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Dungeon_SharTemple_Gem_A" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c679ce59-614f-4a88-ad73-581c7aebcd02" />
+					<attribute id="Name" type="LSString" value="Loot_Cambion_Mage" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Scale" type="float" value="0.5" />
+					<attribute id="Stats" type="FixedString" value="Loot_Cambion_Mage" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Loot_Cambion_Mage_TT" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

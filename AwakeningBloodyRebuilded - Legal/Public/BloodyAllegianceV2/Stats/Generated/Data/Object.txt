@@ -1,0 +1,69 @@
+
+new entry "BloodyAllegiance_Chest"
+type "Object"
+using "_Container"
+data "RootTemplate" "d01a44a7-912c-4e6e-bb4e-b78812656dd1"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+new entry "BloodyAllegiance_ChestTesting"
+type "Object"
+using "_Container"
+data "RootTemplate" "2b5b50a8-39be-44a2-808b-a12512699b98"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+new entry "Loot_Demon_Mage"
+type "Object"
+using "_Container"
+data "RootTemplate" "d1d609bd-ac86-4c39-b416-cb45e9d8fa4c"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+
+new entry "Loot_Demon_Random"
+type "Object"
+using "_Container"
+data "RootTemplate" "4bdece7f-4e2d-4440-9318-10d023d8053e"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+
+new entry "Loot_Demon_Dual"
+type "Object"
+using "_Container"
+data "RootTemplate" "96e3ba23-3899-4cef-b47e-7e6e68bcd3d6"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+
+new entry "Loot_Demon_Dual_Skeleton"
+type "Object"
+using "_Container"
+data "RootTemplate" "95a44def-dd2d-4f02-823f-fcde1edb0024"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+new entry "Loot_Cambion_Dual"
+type "Object"
+using "_Container"
+data "RootTemplate" "d6b4ec32-7b33-494a-933a-628b77f9f557"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+new entry "Loot_Cambion_Mage"
+type "Object"
+using "_Container"
+data "RootTemplate" "c679ce59-614f-4a88-ad73-581c7aebcd02"
+data "ValueOverride" "1000"
+data "Weight" "0.01"
+data "Rarity" "VeryRare"
+
+

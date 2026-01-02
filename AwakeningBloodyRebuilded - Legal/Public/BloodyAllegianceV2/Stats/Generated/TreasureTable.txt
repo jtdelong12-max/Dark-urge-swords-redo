@@ -1,0 +1,137 @@
+
+new treasuretable "BloodyAllegiance_ChestTesting_TT"
+new subtable "1,1"
+object category "I_BloodyAllegiance_Aluve",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Aluve",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Twohand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Crusher_TwoHand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Rapier",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Rapier",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big_Sheatable",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand_Magic",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_Primeval_Silver_Longsword",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_PHB_OfSpeed_Scimitar",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_PLA_WPN_SwordOfJustice",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MWPN_Apostle_Scythe",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_Round_Shi",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_DeathKnight_Shield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_Viconia_Shield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_Myrkyl_Shield",1,0,0,0,0,0,0,0
+
+
+
+new treasuretable "BloodyAllegiance_Chest_TT"
+new subtable "1,1"
+object category "I_BloodyAllegiance_Aluve",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Aluve",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big_Sheatable",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big_Sheatable",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Twohand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Crusher_TwoHand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand_NoSheat",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand_NoSheat",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Rapier",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Rapier",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_Round_Shi",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_DeathKnight_Shield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_Viconia_Shield",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_Myrkyl_Shield",1,0,0,0,0,0,0,0
+
+
+
+
+
+new treasuretable "Loot_Demon_Mage_TT"
+new subtable "1,1"
+object category "I_BloodyAllegiance_Silver_OneHand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_DeathKnight_Shield",1,0,0,0,0,0,0,0
+
+
+new treasuretable "Loot_Demon_Random_TT"
+new subtable "2,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0
+object category "I_BloodyAllegiance_Aluve",1,0,0,0,0,0,0,0
+object category "I_BloodyAllegiance_Big",1,0,0,0,0,0,0,0
+object category "I_BloodyAllegiance_Giant_Twohand",1,0,0,0,0,0,0,0
+object category "I_BloodyAllegiance_Rapier",1,0,0,0,0,0,0,0
+object category "I_BloodyAllegiance_Crusher_TwoHand",1,0,0,0,0,0,0,0
+object category "I_BloodyAllegiance_Silver_OneHand",1,0,0,0,0,0,0,0
+
+new treasuretable "Loot_Demon_Dual_TT"
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Big",1,0,0,0,0,0,0,0
+
+
+new treasuretable "Loot_Demon_Dual_Skeleton_TT"
+new subtable "1,1"
+object category "I_BloodyAllegiance_Aluve",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Aluve",1,0,0,0,0,0,0,0
+
+
+new treasuretable "Loot_Cambion_Mage_TT"
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_Demonic_DeathKnight_Shield",1,0,0,0,0,0,0,0
+
+new treasuretable "Loot_Cambion_Dual_TT"
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BloodyAllegiance_Giant_Onehand",1,0,0,0,0,0,0,0

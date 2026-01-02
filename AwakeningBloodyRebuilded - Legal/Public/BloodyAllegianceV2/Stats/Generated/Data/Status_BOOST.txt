@@ -1,0 +1,796 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+MGA 1   MElee2
+
+new entry "DescStatus_1"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h7c4ac742gb446g48a0gb6f4ga0e61ea564bb;1"
+data "Description" "h2c3497f1gb749g4482g9793g2385d34d13e3;1"
+
+new entry "DescStatus_2"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h9de6dd53g0a09g4f5cga2a6g6c9079684ec4;1"
+data "Description" "hf16f0105g73d1g4a93g9bccg568507148fb9;1"
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+new entry "DemonicShield_Passive_AURA_222"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h3ee7a819gea9bg4224g9b38g8bb9fa571ef9;1"
+data "Description" "hcde9253eg37dfg40aag939cgcb033c5f9fde;1"
+data "DescriptionParams" "Distance(6);1d4"
+data "Icon" "Demon_ShieldAura"
+data "StackId" "DemonicShield_Passive_AURA"
+data "AuraRadius" "8"
+data "AuraStatuses" "IF(Character() and Ally() and Player() and not Dead()):ApplyStatus(DemonicShield_Bless,100,-1)"
+data "AuraFlags" "ShouldCheckLOS"
+data "FormatColor" "Red"
+data "Boosts" "Tag(ACT2_SHADOW_CURSE_IMMUNE)"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead"
+data "StatusGroups" "SG_Light"
+
+
+new entry "DemonicShield_Bless"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BLESS"
+data "DisplayName" "h3ee7a819gea9bg4224g9b38g8bb9fa571ef9;1"
+data "Description" "hcde9253eg37dfg40aag939cgcb033c5f9fde;1"
+data "DescriptionParams" "Distance(12);1d6"
+data "Icon" "Demon_ShieldAura"
+data "SoundLoop" ""
+data "StackId" "DemonicShield_Bless"
+data "StackType" "Overwrite"
+data "StatusGroups" ""
+data "Boosts" "AC(1);IF(CharacterLevelGreaterThan(5)):AC(1);IF(CharacterLevelGreaterThan(11)):AC(1);StatusImmunity(BURNING_HELLFIRE);StatusImmunity(DIFFICULT_TERRAIN);ActionResource(Movement,9,0)"
+data "ApplyEffect" ""
+data "StatusEffect" ""
+data "FormatColor" "Red"
+data "ManagedStatusEffectType" ""
+data "ManagedStatusEffectGroup" ""
+data "Properties" "IsHidden"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead"
+
+
+new entry "DemonicShield_Passive_AURA"
+type "StatusData"
+data "StatusType" "BOOST"
+using "HOBGOBLIN_LEADERSHIP_AURA"
+data "DisplayName" "h3ee7a819gea9bg4224g9b38g8bb9fa571ef9;1"
+data "Description" "hcde9253eg37dfg40aag939cgcb033c5f9fde;1"
+data "DescriptionParams" "Distance(6);1d4"
+data "Icon" "Demon_ShieldAura"
+data "SoundLoop" ""
+data "StackId" "DemonicShield_Passive_AURA"
+data "FormatColor" "Red"
+data "StackType" "Overwrite"
+data "AuraRadius" "8"
+data "AuraStatuses" "IF(Character() and Ally() and Player() and not Dead()):ApplyStatus(DemonicShield_Bless,100,-1)"
+data "StatusEffect" ""
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead"
+
+new entry "Demonic_Shield_Status_Empty"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h7eaf299bg1580g4353g90c2ga7ce1e9a819d;1"
+data "Description" "h79029742g6031g4edega241gdac0cb4b977a;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Demon_ShieldAura"
+data "StackId" "Demonic_Shield_Status_Empty"
+data "TickType" "StartTurn"
+data "StatusEffect" ""
+data "Toggle" ""
+data "Boosts" ""
+data "Passives" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+new entry "BloodyAllegianceAura_BLESS"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BLESS"
+data "DisplayName" "hab8d4cf6g7d1fg4247ga2d5ge51318cd35f1;1"
+data "Description" "h3d1e42dfgb935g4cb2gb171g46631685c1b3;1"
+data "DescriptionParams" "DealDamage(1d6, Thunder)"
+data "Icon" "Demon_Duo_Status"
+data "SoundLoop" ""
+data "StackId" "BloodyAllegianceAura_BLESS"
+data "StackType" "Overwrite"
+data "StatusGroups" ""
+data "Boosts" "Ability(Dexterity,+2);Advantage(SavingThrow,Dexterity);RollBonus(SkillCheck,1d6);RollBonus(RawAbility,1d6);Advantage(AttackTarget)"
+data "ApplyEffect" ""
+data "StatusEffect" ""
+data "ManagedStatusEffectType" ""
+data "ManagedStatusEffectGroup" ""
+data "FormatColor" "Red"
+data "Properties" "IsHidden"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead"
+
+new entry "BloodyAllegianceAura_WEAK"
+type "StatusData"
+data "StatusType" "BOOST"
+using "BANE"
+data "DisplayName" "ha1f60082g265eg49f1g9f4cgdc0ded446cdd;1"
+data "Description" "he8ce2fcegb451g47a2gaafcg61542c563bb2;1"
+data "DescriptionParams" "DealDamage(1d6, Thunder)"
+data "StillAnimationType" ""
+data "StillAnimationPriority" ""
+data "Icon" "Demon_Duo_Status"
+data "SoundLoop" "MAG_Status_HarpersSingingSword_Bane_Loop"
+data "StackId" "BloodyAllegianceAura_WEAK"
+data "StackType" "Overwrite"
+data "Boosts" ""
+data "Passives" "BloodyAllegianceAura_WEAK_Passive"
+data "ApplyEffect" "6c32aa03-be03-4d56-a28b-0984f194de88"
+data "StatusEffect" "b41d8aaa-619b-4686-b4fa-71d1285693ec"
+data "FormatColor" "Red"
+data "ManagedStatusEffectType" ""
+data "ManagedStatusEffectGroup" ""
+data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead"
+
+new entry "BloodyAllegianceAura_WEAK_Passive"
+type "PassiveData"
+data "DisplayName" "ha1f60082g265eg49f1g9f4cgdc0ded446cdd;1"
+data "Properties" "IsHidden"
+data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit) and not SpellId('Target_MainHandAttack_BloodTesting_Beam') and not SpellId('Target_OffHandAttack_BloodTesting_Tweak_Ranged')"
+data "StatsFunctors" "DealDamage(1d6, Thunder)"
+data "StatsFunctorContext" "OnDamaged"
+
+new entry "BloodyAllegianceAura_Demonic"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "had76a34cg60e6g4593gb274gfc74c8835fa7;1"
+data "Description" "hec82b4c5g5e70g423fgbfccg427b2b575ca5;1"
+data "DescriptionParams" "DealDamage(1d6, Thunder)"
+data "Icon" "Demon_Duo_Status"
+data "StackId" "DivineAllegianceAura_AntiShadow"
+data "AuraRadius" "8"
+data "AuraStatuses" "IF(Combat() and Character() and Enemy()):ApplyStatus(BloodyAllegianceAura_WEAK,100,-1);IF(Character() and Ally() and Player() and not Dead()):ApplyStatus(BloodyAllegianceAura_BLESS,100,-1)"
+data "AuraFlags" "ShouldCheckLOS"
+data "FormatColor" "Red"
+data "Boosts" "Tag(ACT2_SHADOW_CURSE_IMMUNE)"
+data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog;DisableOverhead"
+data "StatusGroups" "SG_Light"
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+new entry "Blood_Ultrafiol"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h19b5a7deg07e5g48b8gb09eg5118da4f6ca8;1"
+data "Description" "h76e1a056g04e3g43efgaeb9ge1b34796be18;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Action_Cleric_RadianceOfTheDawn"
+data "StackId" "Blood_Ultrafiol"
+data "TickType" "StartTurn"
+data "StatusEffect" "VFX_Oath_TEST:Dummy_FX_01"
+data "Toggle" "Yes"
+data "Passives" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+new entry "Blood_UktraRed"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h2a617343g281cg4c24g8343ged18a8e284b8;1"
+data "Description" "h63e8a49bg3858g423bg8d2agf7311abe196f;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Spell_Evocation_Thunderwave"
+data "StackId" "Blood_UktraRed"
+data "TickType" "StartTurn"
+data "StatusEffect" "VFX_Oath_RED_GLOW:Dummy_FX_01"
+data "Boosts" ""
+data "Toggle" "Yes"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+
+
+new entry "Blood_Xuy"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h19b5a7deg07e5g48b8gb09eg5118da4f6ca8;1"
+data "Description" "h76e1a056g04e3g43efgaeb9ge1b34796be18;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Action_Cleric_RadianceOfTheDawn"
+data "StackId" "Blood_Xuy"
+data "TickType" "StartTurn"
+data "StatusEffect" ""
+data "Toggle" "Yes"
+data "Passives" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+new entry "BloodStatusWeapon_Melee"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h2a617343g281cg4c24g8343ged18a8e284b8;1"
+data "Description" "h63e8a49bg3858g423bg8d2agf7311abe196f;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Action_Cleric_RadianceOfTheDawn"
+data "StackId" "BloodStatusWeapon_Melee"
+data "TickType" "StartTurn"
+data "StatusEffect" "VFX_Oath_RED_GLOW:Dummy_FX_01"
+data "Boosts" ""
+data "Toggle" "Yes"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+new entry "BloodStatusWeapon_Magic"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hcae9c7d1g6afeg4c49ga563g51e146a2a0cf;1"
+data "Description" "hef102a92ga6e3g4c74g8045g3f9a2be6c8ad;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Spell_Evocation_Thunderwave"
+data "StackId" "BloodStatusWeapon_Magic"
+data "TickType" "StartTurn"
+data "StatusEffect" "VFX_Oath_TEST:Dummy_FX_01"
+data "Toggle" "Yes"
+data "Passives" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+new entry "BloodStatusWeapon_Default"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h630d3e1ag540fg4b0ag8c52g155da71ec36e;1"
+data "Description" "hc86a6f1fg28a5g4b21g92d4g840df29a2872;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Action_DippedFire_Melee"
+data "StackId" "BloodStatusWeapon_Default"
+data "TickType" "StartTurn"
+data "StatusEffect" "12d054d1-07b1-4fec-a433-21cf62e5f4bf"
+data "Toggle" "Yes"
+data "Passives" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+new entry "BloodStatusWeapon_Empty"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hc86a6f1fg28a5g4b21g92d4g840df29a2872;1"
+data "Description" "hc86a6f1fg28a5g4b21g92d4g840df29a2872;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Action_DippedFire_Melee"
+data "StackId" "BloodStatusWeapon_Empty"
+data "TickType" "StartTurn"
+data "StatusEffect" ""
+data "Toggle" "Yes"
+data "Passives" ""
+data "Boosts" "WeaponDamage(Level/2, Force)"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+new entry "BloodStatusWeapon_One"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h630d3e1ag540fg4b0ag8c52g155da71ec36e;1"
+data "Description" "hc86a6f1fg28a5g4b21g92d4g840df29a2872;1"
+data "DescriptionParams" "DealDamage(Level,Lightning)"
+data "Icon" "Action_DippedFire_Melee"
+data "StackId" "RADIANT_STATUS_ATTACK_FIVE"
+data "TickType" "StartTurn"
+data "StatusEffect" "VFX_Actions_Prepare_Origin_VampireBite_HandFX_02"
+data "Toggle" "Yes"
+data "Passives" ""
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+new entry "MAINHANDATTACK_Melee_Standart"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h23612148g0b1dg4d30g9830g02f8e603a2af;1"
+data "Description" "hfff0b8b7g85cag4a81gafcag7dff4bdd61d5;1"
+data "DescriptionParams" "DealDamage((MainMeleeWeapon)/2,Thunder)"
+data "Icon" "Demon_MainMelee"
+data "Boosts" "AttackSpellOverride(Target_MainHandAttack_BloodTesting_Beam_One, Target_MainHandAttack); AttackSpellOverride(Target_OffHandAttack_BloodTesting_Tweak, Target_OffhandAttack)"
+data "StatusEffect" "875f06ca-91f6-4125-933d-1589edf3902d"
+data "FormatColor" "Red"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "Passives" "MeleeStance_Passive"
+data "StackId" "MAINHANDATTACK_Melee_Standart"
+data "StackType" "Overwrite"
+
+
+new entry "MAINHANDATTACK_Magic_Standart"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "he147504ege7b4g453ega7ffg4f0db65a5aa0;1"
+data "Description" "hb062e367g3862g4bc0gbb65g67e3fbe4385b;1"
+data "DescriptionParams" "Distance(6)"
+data "Icon" "Demon_MagMain_Purple"
+data "Boosts" "AttackSpellOverride(Target_MainHandAttack_BloodTesting_Beam, Target_MainHandAttack); AttackSpellOverride(Target_OffHandAttack_BloodTesting_Tweak_Ranged, Target_OffhandAttack)"
+data "StatusEffect" "875f06ca-91f6-4125-933d-1589edf3902d"
+data "FormatColor" "Gold"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "RemoveConditions" "not HasStatus('RemoveSoulsTorment')"
+data "RemoveEvents" "OnStatusRemoved"
+data "Passives" "MagicStance_Passive"
+
+new entry "Toggled_MainMagic_Apply"
+type "PassiveData"
+data "DisplayName" "he147504ege7b4g453ega7ffg4f0db65a5aa0;1"
+data "Description" "hb062e367g3862g4bc0gbb65g67e3fbe4385b;1"
+data "DescriptionParams" "Distance(6)"
+data "Icon" "Demon_MagMain_Purple"
+data "Properties" "ToggledDefaultAddToHotbar;IsToggled;IsHidden"
+data "ToggleOnFunctors" "ApplyStatus(MAINHANDATTACK_Magic_Standart, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Magic, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Magic, 100, -1)"
+data "ToggleOffFunctors" "RemoveStatus(MAINHANDATTACK_Magic_Standart);IF(HasStatus('BloodStatusWeapon_Magic', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Magic, 100, -1);IF(HasStatus('BloodStatusWeapon_Magic', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Magic, 100, -1)"
+
+new entry "Toggled_MainMagic_Apply_Sumoned"
+type "PassiveData"
+data "DisplayName" "he147504ege7b4g453ega7ffg4f0db65a5aa0;1"
+data "Description" "hb062e367g3862g4bc0gbb65g67e3fbe4385b;1"
+data "DescriptionParams" "Distance(6)"
+data "Icon" "Demon_MagMain_Purple"
+data "Properties" "ToggledDefaultAddToHotbar;IsToggled;IsHidden;ToggledDefaultOn"
+data "ToggleOnFunctors" "ApplyStatus(MAINHANDATTACK_Magic_Standart, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Magic, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Magic, 100, -1)"
+data "ToggleOffFunctors" "RemoveStatus(MAINHANDATTACK_Magic_Standart);IF(HasStatus('BloodStatusWeapon_Magic', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Magic, 100, -1);IF(HasStatus('BloodStatusWeapon_Magic', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Magic, 100, -1)"
+
+
+
+new entry "Toggled_MeleeEffect_Remove222"
+type "PassiveData"
+data "DisplayName" "h4f3a9bdag174ag4de7g83b9gc13916fd9468;1"
+data "Description" "hdc7c8ca5g69a3g4ce8gb248g8ff22107d10e;1"
+data "DescriptionParams" "Distance(6)"
+data "Icon" "Demon_MainMelee"
+data "Properties" "ToggledDefaultAddToHotbar;IsToggled;IsHidden"
+data "ToggleOnFunctors" "IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Melee, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Melee, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Default, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Default, 100, -1)"
+data "ToggleOffFunctors" "IF(HasStatus('BloodStatusWeapon_Melee', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Melee, 100, -1);IF(HasStatus('BloodStatusWeapon_Melee', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Melee, 100, -1);IF(HasStatus('BloodStatusWeapon_Default', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Default, 100, -1);IF(HasStatus('BloodStatusWeapon_Default', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Default, 100, -1)"
+
+new entry "Toggled_MeleeEffect_Remove"
+type "PassiveData"
+data "DisplayName" "hb0fcd70ega6e7g4aafgbd85g2ac0b574c242;1"
+data "Description" "hbd40f718gc3dbg40d2g9459g660e705c9be8;1"
+data "DescriptionParams" "Distance(6)"
+data "Icon" "Demon_MainMelee"
+data "Properties" "ToggledDefaultAddToHotbar;IsToggled;IsHidden"
+data "ToggleOnFunctors" "IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Default, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Default, 100, -1)"
+data "ToggleOffFunctors" "IF(HasStatus('BloodStatusWeapon_Default', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Default, 100, -1);IF(HasStatus('BloodStatusWeapon_Default', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Default, 100, -1)"
+
+new entry "Toggled_SlasherEffect_Remove"
+type "PassiveData"
+data "DisplayName" "h4f3a9bdag174ag4de7g83b9gc13916fd9468;1"
+data "Description" "hdc7c8ca5g69a3g4ce8gb248g8ff22107d10e;1"
+data "DescriptionParams" "Distance(6)"
+data "Icon" "Demon_MainMelee"
+data "Properties" "ToggledDefaultAddToHotbar;IsToggled;IsHidden"
+data "ToggleOnFunctors" "IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Melee, 100, -1);IF(HasStatus('BloodStatusWeapon_Empty', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Melee, 100, -1)"
+data "ToggleOffFunctors" "IF(HasStatus('BloodStatusWeapon_Melee', GetItemInEquipmentSlot(EquipmentSlot.MeleeMainHand, context.Source))):ApplyEquipmentStatus(MeleeMainHand, BloodStatusWeapon_Melee, 100, -1);IF(HasStatus('BloodStatusWeapon_Melee', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, BloodStatusWeapon_Melee, 100, -1)"
+
+
+
+
+
+new entry "MeleeStance_Passive"
+type "PassiveData"
+data "DisplayName" "h030c0d90gaf9cg479eg9b4cg989f5c146669;1"
+data "Description" "h29826936g94e4g445fgb5b0gd29cfbbc0002;1"
+data "Icon" "Demon_MainMelee"
+data "PriorityOrder" "1"
+data "Properties" "IsHidden"
+data "Boosts" "RollBonus(MeleeWeaponAttack, 3);ReduceCriticalAttackThreshold(2)"
+
+
+new entry "MagicStance_Passive"
+type "PassiveData"
+using "GreatWeaponMaster_BonusDamage"
+data "DisplayName" "h598c1b70g3787g42bdgb1f0gb7936e63a51b;1"
+data "Description" "hdc61d958g3238g42e4g8665g9bb247052ed9;1"
+data "DescriptionParams" "5;1d8"
+data "Icon" "Demon_MagMain_Purple"
+data "Properties" "IsHidden"
+data "Boosts" "IF(SpellId('Target_MainHandAttack_BloodTesting_Beam') or SpellId('Target_OffHandAttack_BloodTesting_Tweak_Ranged') or IsSpell() or IsAttackType(AttackType.MeleeSpellAttack) or IsCantrip()):DamageBonus(SpellCastingAbilityModifier*2);RollBonus(MeleeSpellAttack, 3);RollBonus(RangedSpellAttack, 3);CharacterWeaponDamage(-1d8)"
+data "Conditions" "SpellId('Target_MainHandAttack_BloodTesting_Beam') or SpellId('Target_OffHandAttack_BloodTesting_Tweak_Ranged') or IsSpell() or IsAttackType(AttackType.MeleeSpellAttack) or IsCantrip()"
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+new entry "SoulsTormentNumber"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h5c77951fg2027g4ea9g8e12g1ede1252dc6b;1"
+data "Description" "hadc34a60g0beeg4c23g842cg361c03769b44;1"
+data "DescriptionParams" "1"
+data "Icon" "SoulsDemonNumber"
+data "SoundStart" ""
+data "StackId" "SoulsTormentNumber"
+data "ApplyEffect" "6c32aa03-be03-4d56-a28b-0984f194de88"
+data "StatusEffect" "875f06ca-91f6-4125-933d-1589edf3902d"
+data "StackType" "Additive"
+data "Boosts" ""
+data "StatusPropertyFlags" "FreezeDuration;DisableOverhead;MultiplyEffectsByDuration;DisableCombatlog;IgnoreResting"
+data "Passives" ""
+data "ManagedStatusEffectType" ""
+data "ManagedStatusEffectGroup" ""
+
+new entry "RemoveSoulsTorment"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "PassiveFeature_RampartAura"
+data "Properties" "IsHidden"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+eye
+
+
+new entry "Demonic_EyesPassive"
+type "PassiveData"
+data "DisplayName" "hb363acd2g68ccg4e60gbf8bg8032a1e8bc81;1"
+data "Description" "h480e0f50g04f3g4833g9cf9gb803cc5a8a1c;1"
+data "DescriptionParams" ""
+data "Icon" "Demon_Desc1_Weapon"
+data "Properties" "ToggledDefaultAddToHotbar;IsToggled;ToggledDefaultOn;IsHidden"
+data "ToggleOnFunctors" "ApplyStatus(Demonic_EyesStatus, 100, -1)"
+data "ToggleOffFunctors" "RemoveStatus(Demonic_EyesStatus)"
+
+
+new entry "Demonic_EyesStatus"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hb363acd2g68ccg4e60gbf8bg8032a1e8bc81;1"
+data "Description" "h480e0f50g04f3g4833g9cf9gb803cc5a8a1c;1"
+data "DescriptionParams" "1"
+data "Icon" "Demon_Desc1_Weapon"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting"
+data "StackType" "Overwrite"
+data "StackId" "Demonic_EyesStatus"
+data "Boosts" ""
+data "Passives" ""
+data "StatusEffect" "0b7f9417-147c-4ce6-9b50-a8ff0456e394"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+MAINHAND
+
+
+new entry "ChainLightning_Demonic"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "f8a40cc0-5687-40a7-ad36-f57252e402b5"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+new entry "ChainLightning_Demonic_Testing"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "4d5d43f2-88db-47a7-b54a-26fa44a9b023"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+new entry "Impact_Disin_Magic"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "74e40359-9156-4fd6-b6a6-9bbc5ed21b83"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+OFFHAND
+
+new entry "Off_FingerBeam"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "27485340-94ec-4b6e-ba43-abfbda634ddf"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+new entry "Off_FearBeam"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "9f9ddedc-8e9d-46bd-bc97-a719385fc7be"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+new entry "Off_EnfebleBeam"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "8e491aae-1ad2-498d-82e9-168f92ddf018"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+IMPACT
+
+
+new entry "Both_FearSmiteImpact"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "66976c1e-253f-4102-b6ee-17fdbe1d1666"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+IMPACT MELEEE
+
+new entry "Melee_Impact_Status2"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "SoundStart" ""
+data "StatusEffect" "5a7b2bac-2de8-465f-9a9b-0b892052913a"
+
+new entry "Melee_Impact_Status3"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "SoundStart" ""
+data "StatusEffect" "6c651fb1-8135-4725-98e3-6da2a75c1d5c"
+
+new entry "Melee_Impact_Status"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "SoundStart" ""
+data "StatusEffect" "2d9ea9e0-83bf-47e7-a9ba-9c07f13a4c55"
+
+new entry "Ranged_Impact_Status"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "SoundStart" ""
+data "StatusEffect" "b927b7c2-2040-4bcd-90f9-428b33d22b23"
+
+new entry "Melee_Impact_Keter"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "ac6650da-6a55-4127-a121-8e92de62e08f"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+new entry "Melee_Impact_Disin"
+type "SpellData"
+data "SpellType" "Projectile"
+data "TargetConditions" ""
+data "Trajectories" "602fc804-e149-4e94-9051-9d7d9a1b200f"
+data "CastTextEvent" "Cast"
+data "SpellAnimationNoneMagic" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0(SPL_Arcane_Damage_01_Prepare),,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35(SPL_Somatic_Projectile_01_Cast),,;85414f5f-b448-4dda-9370-1b6c4b38b561(SPL_Somatic_Projectile_01_Recover),,;,,;,,"
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+new entry "Target_MainHandAttack_BloodTesting_Beam"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellProperties" "GROUND:CreateExplosion(Impact_Disin_Magic);GROUND:CreateExplosion(Both_FearSmiteImpact);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1)"
+data "TargetFloor" "-1"
+data "TargetRadius" "16"
+data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
+data "SpellSuccess" "ApplyStatus(Ranged_Impact_Status,100,0);DealDamage(MainMeleeWeapon/2+LevelMapValue(DemonMag), MainMeleeWeaponDamageType);IF(not IsOffHandSlotEmpty(context.Source) and not HasShieldEquipped(context.Source)):DealDamage(OffhandMeleeWeapon/2, OffhandMeleeWeaponDamageType);IF(IsCritical()):SpawnExtraProjectiles(Dethrone_Blood_Standart_Explosion);IF(IsCritical()):SpawnExtraProjectiles(Dethrone_Blood_Standart_Explosion_Extra);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+data "TargetConditions" "not Self() and not Dead()"
+data "ProjectileCount" "1"
+data "Trajectories" "f8a40cc0-5687-40a7-ad36-f57252e402b5"
+data "Icon" "Demon_MagMain_Purple"
+data "DisplayName" "hed813534g8a04g4787ga08fg7b3ecf6b6a62;1"
+data "Description" "he4d249aag546ag4c36ga026g0855337fcc3e;1"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon/2, Force);DealDamage(OffhandMeleeWeapon/2, Force)"
+data "TooltipAttackSave" "MeleeWeaponAttack"
+data "PreviewCursor" "Melee"
+data "CastTextEvent" "Cast"
+data "AlternativeCastTextEvents" "CastOffhand"
+data "CycleConditions" "Character() and Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1"
+data "DualWieldingUseCosts" ""
+data "SpellAnimation" "2ba949b7-0329-4190-992c-11b0d29183c5,,;9583ecee-cf6c-4735-86db-7ebf1df15eae,,;de006e3f-70fb-4eb7-a98d-d845d15b20e8,,;50696db7-d931-4734-915d-32d038ba99a5,,;a0503ad0-c1b1-449c-b431-4ac6c39c58d7,,;c36ed247-2272-492b-99c2-2ca10b014670,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "DualWieldingSpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;cd5e5d4a-38e1-4d4d-b346-3fbc1e4c3c90,,;141f48d9-9615-496a-8737-9240f0dba60d,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "WeaponTypes" "Melee"
+data "SpellFlags" "IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful;CanDualWield"
+data "HitAnimationType" "PhysicalDamage"
+data "SpellAnimationIntentType" "Aggressive"
+data "PrepareSound" "CrSpell_Prepare_Azer_SearingSmite"
+data "PrepareLoopSound" "CrSpell_Loop_Azer_SearingSmite"
+data "CastSound" "Spell_Cast_Damage_Radiant_Sunbeam_L6to8"
+data "TargetSound" "Spell_Impact_Damage_Radiant_Sunbeam_L6to8"
+data "PrepareEffect" "9c0aacc9-3a4a-4e98-ac37-79a088cef083"
+data "CastEffect" "722f5dd2-2759-4b5b-9ee8-32e5b074b89c"
+data "TargetEffect" ""
+data "PositionEffect" "7db045f9-83ac-4768-88c8-48563b685a9d"
+data "HitEffect" ""
+data "BeamEffect" "99a00cde-386b-4696-b871-170904c899cc"
+data "SpellSoundMagnitude" "None"
+data "DeathType" "Explode"
+data "Sheathing" "Melee"
+
+
+
+new entry "Target_MainHandAttack_BloodTesting_Beam_One"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellProperties" "ApplyStatus(Melee_Impact_Status,100,0);IF(not Player(context.Source)):ApplyStatus(SELF,AI_HELPER_EXTRAATTACK,100,1)"
+data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
+data "SpellSuccess" "DealDamage(MainMeleeWeapon+LevelMapValue(DemonMelee), MainMeleeWeaponDamageType);IF(not IsOffHandSlotEmpty(context.Source) and not HasShieldEquipped(context.Source)):DealDamage(OffhandMeleeWeapon+StrengthModifier+LevelMapValue(DemonMelee),OffhandMeleeWeaponDamageType);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+data "TargetCeiling" "0"
+data "TargetFloor" ".25"
+data "TargetRadius" "MeleeMainWeaponRange"
+data "TargetConditions" "not Self() and not Dead()"
+data "Icon" "Demon_MainMelee"
+data "DisplayName" "h15d81a54gdfecg4a3agb8ecg27c6f4bb19a8;1"
+data "Description" "h34ad5335g3181g4921g8900g019d2cd6f326;1"
+data "TooltipDamageList" "DealDamage(MainMeleeWeapon+LevelMapValue(DemonMelee), MainMeleeWeaponDamageType);DealDamage(OffhandMeleeWeapon+StrengthModifier+LevelMapValue(DemonMelee),OffhandMeleeWeaponDamageType)"
+data "TooltipAttackSave" "MeleeWeaponAttack"
+data "PreviewCursor" "Melee"
+data "CastTextEvent" "Cast"
+data "AlternativeCastTextEvents" "CastOffhand"
+data "CycleConditions" "Character() and Enemy() and not Dead()"
+data "UseCosts" "ActionPoint:1"
+data "DualWieldingUseCosts" ""
+data "SpellAnimation" "79f8640c-612a-4b13-aac7-bdc1b90458c2,,;655f5d8e-39c7-45b4-8a36-fdd3358a448c,,;c07a9d83-9a39-464a-b281-15c67c528ffb,,;32c33123-7962-4d95-b497-532b1a897e85,,;7f20e242-be7c-4fd1-a2bd-5715b2adca03,,;7465f7f7-67ea-41f2-8dd4-3c97f1089a54,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "DualWieldingSpellAnimation" "8b8bb757-21ce-4e02-a2f3-97d55cf2f90b,,;,,;bb6068f0-9e3b-4594-82fc-674f017222b3,,;d601dd48-3c70-4440-b272-1db56f735735,,;7bb52cd4-0b1c-4926-9165-fa92b75876a3,,;,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "WeaponTypes" "Melee"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful;CanDualWield;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;CanAreaDamageEvade"
+data "HitAnimationType" "PhysicalDamage"
+data "SpellAnimationIntentType" "Aggressive"
+data "PrepareEffect" "9c0aacc9-3a4a-4e98-ac37-79a088cef083"
+data "CastEffect" "39ca9c2d-ad7a-4c03-9328-6834a72f9ce7"
+data "PrepareSound" "Spell_Prepare_Damage_Thunder_ChromaticOrbThunder_L1to3"
+data "PrepareLoopSound" ""
+data "TargetSound" "CrSpell_Impact_SteelWatcher_MainHandAttack"
+data "CastSound" "CrSpell_Cast_Nightsong_LunarSmite"
+data "TargetEffect" ""
+data "BeamEffect" ""
+data "SpellSoundMagnitude" "None"
+data "DeathType" "Explode"
+data "Sheathing" "Melee"
+
+
+
+
+
+new entry "Target_OffHandAttack_BloodTesting_Tweak"
+type "SpellData"
+data "SpellType" "Target"
+data "SpellProperties" ""
+data "TargetCeiling" "0"
+data "TargetFloor" ".25"
+data "TargetRadius" "MeleeMainWeaponRange"
+data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
+data "SpellSuccess" "DealDamage(max(1,OffhandMeleeWeapon+DexterityModifier+LevelMapValue(DemonMelee)), OffhandMeleeWeaponDamageType);ApplyStatus(Melee_Impact_Status,100,0);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+data "TargetConditions" "not Self() and not Dead()"
+data "Icon" "Demon_OffMelee"
+data "DisplayName" "he4009080g8f50g41fcgbde4g7d342b5d1cec;1"
+data "Description" "h6bf21983g8517g4c7agb62cga14d5899a88d;1"
+data "TooltipDamageList" "DealDamage(OffhandMeleeWeapon+DexterityModifier+LevelMapValue(DemonMelee), OffhandMeleeWeaponDamageType)"
+data "TooltipAttackSave" "MeleeWeaponAttack"
+data "PreviewCursor" "Melee"
+data "CastTextEvent" "Cast"
+data "AlternativeCastTextEvents" "CastOffhand"
+data "CycleConditions" "Character() and Enemy() and not Dead()"
+data "UseCosts" "BonusActionPoint:1"
+data "DualWieldingUseCosts" ""
+data "SpellAnimation" "5dbfc67e-a1f4-4a91-b398-4df1ad989c49,,;6f957f78-322e-465f-b314-27299a98add7,,;63c0501c-14aa-467c-8980-45ed023ab15d,,;e6af1757-da0b-4640-8ce5-ea559816d2b0,,;08e862c4-75d3-489d-bdb2-b2f95031373e,,;3ed0eebd-86d0-4902-bcea-e0b039e9ad1f,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "WeaponTypes" "Melee"
+data "SpellFlags" "IsAttack;IsMelee;IsHarmful;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold"
+data "HitAnimationType" "PhysicalDamage"
+data "SpellAnimationIntentType" "Aggressive"
+data "CastEffect" "2a33bfa2-9a4e-4559-b82a-8aa4f5ddbd64"
+data "TargetEffect" ""
+data "PrepareEffect" "489c5006-677a-48f1-9684-444da87b2b41"
+data "PrepareSound" "Spell_Prepare_Damage_Thunder_ChromaticOrbThunder_L1to3"
+data "PrepareLoopSound" ""
+data "CastSound" "CrSpell_Cast_Slayer_SacrificiallyScream"
+data "TargetSound" "CrSpell_Impact_SteelWatcher_MainHandAttack"
+data "SpellSoundMagnitude" "None"
+data "Sheathing" "Melee"
+
+
+
+
+
+
+new entry "Target_OffHandAttack_BloodTesting_Tweak_Ranged"
+type "SpellData"
+data "SpellType" "Projectile"
+data "SpellProperties" "ApplyStatus(Ranged_Impact_Status,100,0);GROUND:CreateExplosion(Off_FearBeam);GROUND:CreateExplosion(Off_EnfebleBeam)"
+data "TargetFloor" "-1"
+data "TargetRadius" "16"
+data "SpellRoll" "Attack(AttackType.MeleeWeaponAttack)"
+data "SpellSuccess" "DealDamage(OffhandMeleeWeapon/2, OffhandMeleeWeaponDamageType);IF(IsCritical()):SpawnExtraProjectiles(Dethrone_Blood_Standart_Explosion);IF(IsCritical()):SpawnExtraProjectiles(Dethrone_Blood_Standart_Explosion_Extra);IF(IsCritical()):RegainHitPoints(SELF,DamageDone/8)"
+data "TargetConditions" "not Self() and not Dead()"
+data "ProjectileCount" "1"
+data "Trajectories" "27485340-94ec-4b6e-ba43-abfbda634ddf"
+data "Icon" "Demon_MagOff_Purple"
+data "DisplayName" "hdced55f4g5a07g407fg8b6dg8a73cb62c0d8;1"
+data "Description" "h67f0753bgb8ffg4d64g933cg94010e333021;1"
+data "TooltipDamageList" "DealDamage(OffhandMeleeWeapon/2, OffhandMeleeWeaponDamageType)"
+data "TooltipAttackSave" "MeleeWeaponAttack"
+data "PreviewCursor" "Melee"
+data "CastTextEvent" "Cast"
+data "AlternativeCastTextEvents" "CastOffhand"
+data "CycleConditions" "Character() and Enemy() and not Dead()"
+data "UseCosts" "BonusActionPoint:1"
+data "DualWieldingUseCosts" ""
+data "SpellAnimation" "2ba949b7-0329-4190-992c-11b0d29183c5,,;9583ecee-cf6c-4735-86db-7ebf1df15eae,,;de006e3f-70fb-4eb7-a98d-d845d15b20e8,,;50696db7-d931-4734-915d-32d038ba99a5,,;a0503ad0-c1b1-449c-b431-4ac6c39c58d7,,;c36ed247-2272-492b-99c2-2ca10b014670,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
+data "VerbalIntent" "Damage"
+data "WeaponTypes" "Melee"
+data "SpellFlags" "IsAttack;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;IsHarmful"
+data "HitAnimationType" "PhysicalDamage"
+data "SpellAnimationIntentType" "Aggressive"
+data "PrepareSound" "CrSpell_Prepare_Azer_SearingSmite"
+data "PrepareLoopSound" "CrSpell_Loop_Azer_SearingSmite"
+data "CastSound" "Action_Cast_Topple"
+data "TargetSound" "Action_Impact_Topple"
+data "PrepareEffect" "c7a5da24-613b-4161-abc7-0744d8671d58"
+data "CastEffect" "b14458a5-0798-45cf-996d-184fe1db6f5a"
+data "TargetEffect" ""
+data "PositionEffect" "7db045f9-83ac-4768-88c8-48563b685a9d"
+data "HitEffect" ""
+data "BeamEffect" "99a00cde-386b-4696-b871-170904c899cc"
+data "SpellSoundMagnitude" "None"
+data "DeathType" "Explode"
+data "Sheathing" "Melee"
+
+
+
+
