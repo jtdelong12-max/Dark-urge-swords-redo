@@ -2,6 +2,8 @@
 
 A Baldur's Gate 3 mod featuring powerful demonic weapons with unique abilities.
 
+**✅ Patch 8 Compatible** - Updated for Baldur's Gate 3 Patch 8 (April 2025)
+
 ## Recent Optimizations (Jan 2026)
 
 This mod has been optimized for better performance and maintainability:
